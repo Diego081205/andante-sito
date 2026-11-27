@@ -549,7 +549,6 @@ a.cr:hover{border-color:var(--gold)}
 body.nlb .wacom{bottom:calc(78px + env(safe-area-inset-bottom,0px))}@media(max-width:600px){body.nlb .wacom{bottom:calc(68px + env(safe-area-inset-bottom,0px))}}
 </style>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-<script>if(window.netlifyIdentity){window.netlifyIdentity.on("init",function(u){if(!u){window.netlifyIdentity.on("login",function(){document.location.href="/admin/"})}})}</script>
 </head><body>
 <form name="richieste" data-netlify="true" netlify-honeypot="bot-field" hidden><input type="hidden" name="subject" value="Nuova richiesta dal sito Andante"><input name="tipo"><input name="nome"><input type="email" name="email"><input name="telefono"><textarea name="messaggio"></textarea><input name="bot-field"></form>
 <a class="wacom" href="https://chat.whatsapp.com/Iy4catqRrQt391sy4BDSZX" target="_blank" rel="noopener"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 18.8z"/><path d="M9.2 8.6c.2-.4.5-.4.8-.4h.5c.2 0 .4.1.5.4l.6 1.5c.1.2 0 .5-.1.6l-.5.6c.6 1.1 1.4 1.9 2.5 2.5l.6-.5c.2-.2.4-.2.6-.1l1.5.6c.3.1.4.3.4.5v.5c0 .4-.1.6-.4.8-.6.4-1.5.5-2.4.1a8.6 8.6 0 0 1-4.5-4.5c-.4-.9-.3-1.8.1-2.4z"/></svg><span data-i18n="cwa">Entra nella community</span></a>
@@ -1150,5 +1149,6 @@ Promise.resolve(null).then(function(u){say(u?'user: ok':'user: null');if(!u)retu
 (function(){function chk(){if(/^#gc=/.test(location.hash)){var d=null;try{d=gcDec(location.hash.slice(4))}catch(e){}gcOpen(d)}}if(document.readyState==='complete')setTimeout(chk,50);else window.addEventListener('load',chk);window.addEventListener('hashchange',chk)})();
 </script>
 <script>(function(){function c(){var f=document.getElementById("nl-badge-frame");document.body.classList.toggle("nlb",!!(f&&f.offsetHeight))}try{new MutationObserver(c).observe(document.body,{childList:true});window.addEventListener("load",function(){c();setTimeout(c,1500)})}catch(e){}})();</script>
+<script>(function(){var ok=/accedi|invite_token|recovery_token|confirmation_token|email_change_token/.test(location.hash);try{ok=ok||!!localStorage.getItem("gotrue.user")}catch(e){}if(!ok)return;function go(){var s=document.createElement("script");s.src="/editor.js?v=__BUILD__";document.body.appendChild(s)}if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",go);else go()})();</script>
 </body>
 </html>

@@ -71,7 +71,10 @@ for (const e of esperienze) {
   }
   CFG.xloc[k] = e.luoghi || []; CFG.xtype[k] = e.tipi || []; CFG.xdur[k] = e.durate || []; CFG.xlev[k] = e.livelli || [];
   if (e.presto) CFG.soon.push(k);
-  ED['p_' + k] = e.prezzo || '€ —';
+  // il prezzo della card prende il posto della riga "Prezzo" della scheda solo se è diverso
+  const prow = ((e.it && e.it.dettagli) || []).find(r => r && /prezzo|price/i.test(r.voce || ''));
+  const pval = prow ? String(prow.valore || '').replace(/&amp;/g, '&').replace(/\s*(a persona|per person).*$/i, '').trim() : '';
+  ED['p_' + k] = e.prezzo && e.prezzo !== pval ? e.prezzo : '€ —';
 }
 CFG.dep = (date.partenze || []).filter(d => d && d.esperienza && d.dal && EXP[d.esperienza]).map(d => {
   const x = { e: d.esperienza, d: String(d.dal).slice(0, 10) }; if (d.al && String(d.al).slice(0, 10) > x.d) x.d2 = String(d.al).slice(0, 10); if (d.luogo) x.loc = d.luogo; return x;
@@ -123,4 +126,12 @@ fs.rmSync(OUT, { recursive: true, force: true });
 fs.mkdirSync(OUT, { recursive: true });
 fs.writeFileSync(path.join(OUT, 'index.html'), html);
 for (const d of ['media', 'admin']) if (fs.existsSync(path.join(ROOT, d))) fs.cpSync(path.join(ROOT, d), path.join(OUT, d), { recursive: true });
+// modifica dal sito: script dell'editor e copia dei contenuti originali
+const BUILD = (process.env.COMMIT_REF || String(Date.now())).slice(0, 12);
+fs.writeFileSync(path.join(OUT, 'index.html'), html.replace('__BUILD__', BUILD));
+if (fs.existsSync(path.join(ROOT, 'editor', 'editor.js'))) fs.copyFileSync(path.join(ROOT, 'editor', 'editor.js'), path.join(OUT, 'editor.js'));
+const src = { commit: process.env.COMMIT_REF || '', files: {} };
+const walk = d => fs.readdirSync(d, { withFileTypes: true }).forEach(e => { const p = path.join(d, e.name); if (e.isDirectory()) walk(p); else if (e.name.endsWith('.json')) src.files[path.relative(ROOT, p).split(path.sep).join('/')] = readJSON(p); });
+walk(path.join(ROOT, 'content'));
+fs.writeFileSync(path.join(OUT, 'editor-src.json'), JSON.stringify(src));
 console.log(`Sito costruito: ${esperienze.length} esperienze, ${CFG.dep.length} date, ${(recensioni.voci || []).length} recensioni, ${(faq.voci || []).length} FAQ.`);
