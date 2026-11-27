@@ -1,9 +1,0 @@
-SITO ANDANTE — come si usa questa cartella
-
-Per vederlo sul computer:
-  apri il file index.html (doppio clic). Tieni sempre index.html e la cartella "media" insieme.
-
-Per metterlo online con Netlify:
-  vai su app.netlify.com/drop e trascina tutta la cartella "andante-sito".
-
-Nella cartella "media" ci sono il video della prima pagina e le foto.

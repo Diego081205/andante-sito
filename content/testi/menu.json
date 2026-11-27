@@ -1,0 +1,69 @@
+{
+  "voci": [
+    {
+      "id": "n1",
+      "it": "Esperienze",
+      "en": "Experiences"
+    },
+    {
+      "id": "n2",
+      "it": "Chi Siamo",
+      "en": "About Us"
+    },
+    {
+      "id": "n3",
+      "it": "Date 2026",
+      "en": "2026 Dates"
+    },
+    {
+      "id": "n4",
+      "it": "Prenota",
+      "en": "Book Now"
+    },
+    {
+      "id": "h1a",
+      "it": "Andante",
+      "en": "Andante"
+    },
+    {
+      "id": "h2",
+      "it": "Shaping unique equestrian experiences",
+      "en": "Shaping unique equestrian experiences"
+    },
+    {
+      "id": "h3",
+      "it": "Explore Journeys",
+      "en": "Explore Journeys"
+    },
+    {
+      "id": "e0",
+      "it": "Le nostre esperienze a cavallo",
+      "en": "Our Riding Experiences"
+    },
+    {
+      "id": "e1",
+      "it": "Ogni uscita è pensata come un piccolo viaggio: cavalli selezionati, paesaggi che restano nel cuore e tavole imbandite.",
+      "en": "Every ride is designed as a small journey: selected horses, landscapes that stay in your heart and laid tables."
+    },
+    {
+      "id": "n5",
+      "it": "FAQ",
+      "en": "FAQ"
+    },
+    {
+      "id": "n6",
+      "it": "Recensioni",
+      "en": "Reviews"
+    },
+    {
+      "id": "n7",
+      "it": "Gift card",
+      "en": "Gift card"
+    },
+    {
+      "id": "e9",
+      "it": "Horseback Experience Designer",
+      "en": "Horseback Experience Designer"
+    }
+  ]
+}

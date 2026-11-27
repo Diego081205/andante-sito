@@ -1,0 +1,194 @@
+{
+  "voci": [
+    {
+      "id": "pr",
+      "it": "Da",
+      "en": "From"
+    },
+    {
+      "id": "d0",
+      "it": "Prossime partenze",
+      "en": "Upcoming Departures"
+    },
+    {
+      "id": "d1",
+      "it": "Scopri le prossime esperienze e prenota il tuo posto.",
+      "en": "Discover upcoming experiences and book your place."
+    },
+    {
+      "id": "f1",
+      "it": "Tutti",
+      "en": "All"
+    },
+    {
+      "id": "f5",
+      "it": "Nessuna esperienza corrisponde ai filtri.",
+      "en": "No experience matches these filters."
+    },
+    {
+      "id": "f6",
+      "it": "Mostra tutte",
+      "en": "Show all"
+    },
+    {
+      "id": "f7",
+      "it": "Prossima partenza:",
+      "en": "Next departure:"
+    },
+    {
+      "id": "f10",
+      "it": "Chiedici una data",
+      "en": "Ask us for a date"
+    },
+    {
+      "id": "sc",
+      "it": "Scopri",
+      "en": "Discover"
+    },
+    {
+      "id": "multig",
+      "it": "Più giorni",
+      "en": "Multi-day"
+    },
+    {
+      "id": "multit",
+      "it": "Multi-Day Rides",
+      "en": "Multi-Day Rides"
+    },
+    {
+      "id": "multip",
+      "it": "Trekking a cavallo di più giorni, di tappa in tappa.",
+      "en": "Horseback treks over several days, from stop to stop."
+    },
+    {
+      "id": "sunsetg",
+      "it": "Tramonto e notte",
+      "en": "Sunset & night"
+    },
+    {
+      "id": "sunsett",
+      "it": "Sunset & Night Rides",
+      "en": "Sunset & Night Rides"
+    },
+    {
+      "id": "sunsetp",
+      "it": "Uscite al tramonto, sotto le stelle e in notturna.",
+      "en": "Rides at sunset, under the stars and by night."
+    },
+    {
+      "id": "privateg",
+      "it": "Su misura",
+      "en": "Tailor-made"
+    },
+    {
+      "id": "privatet",
+      "it": "Private Experiences",
+      "en": "Private Experiences"
+    },
+    {
+      "id": "privatep",
+      "it": "Esperienze private, disegnate su misura per voi.",
+      "en": "Private experiences, designed around you."
+    },
+    {
+      "id": "fy0",
+      "it": "Trova la tua esperienza",
+      "en": "Find your experience"
+    },
+    {
+      "id": "fx1",
+      "it": "Esperienza",
+      "en": "By experience"
+    },
+    {
+      "id": "fx1a",
+      "it": "Tutte",
+      "en": "All"
+    },
+    {
+      "id": "fx2",
+      "it": "Luogo",
+      "en": "By location"
+    },
+    {
+      "id": "fx2a",
+      "it": "Qualsiasi",
+      "en": "Anywhere"
+    },
+    {
+      "id": "fx3",
+      "it": "Durata",
+      "en": "Duration"
+    },
+    {
+      "id": "fx3a",
+      "it": "Qualsiasi durata",
+      "en": "Any duration"
+    },
+    {
+      "id": "fx4",
+      "it": "Livello",
+      "en": "Riding level"
+    },
+    {
+      "id": "fx4a",
+      "it": "Qualsiasi livello",
+      "en": "Any level"
+    },
+    {
+      "id": "fx5",
+      "it": "Azzera",
+      "en": "Reset"
+    },
+    {
+      "id": "ud2",
+      "it": "Nuove date in arrivo.",
+      "en": "New dates coming soon."
+    },
+    {
+      "id": "ud3",
+      "it": "Richiedi",
+      "en": "Request"
+    },
+    {
+      "id": "gh1",
+      "it": "Giornate ed esperienze",
+      "en": "Day rides & experiences"
+    },
+    {
+      "id": "gh2e",
+      "it": "Multi-Day Rides",
+      "en": "Journeys"
+    },
+    {
+      "id": "gh2",
+      "it": "Viaggi di più giorni",
+      "en": "Multi-Day Rides"
+    },
+    {
+      "id": "gh2p",
+      "it": "I nostri viaggi di più giorni sono percorsi a cavallo immersivi, plasmati dal paesaggio, dalla tradizione e dal tempo. Ogni itinerario nasce dalla cultura equestre del luogo ed è pensato per bilanciare avventura, abilità e un legame autentico con la terra.",
+      "en": "Our multi-day rides are immersive horseback journeys shaped by landscape, tradition and time. Each itinerary is rooted in local equestrian culture and designed to balance adventure, skill and meaningful connection with the land."
+    },
+    {
+      "id": "swh",
+      "it": "Scorri per vederle tutte →",
+      "en": "Swipe to see them all →"
+    },
+    {
+      "id": "soon",
+      "it": "Coming soon",
+      "en": "Coming soon"
+    },
+    {
+      "id": "soon2",
+      "it": "Presto disponibile",
+      "en": "Available soon"
+    },
+    {
+      "id": "prq",
+      "it": "Prezzo su richiesta",
+      "en": "Price on request"
+    }
+  ]
+}

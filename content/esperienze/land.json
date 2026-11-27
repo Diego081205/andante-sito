@@ -1,0 +1,190 @@
+{
+  "id": "land",
+  "ordine": 40,
+  "gruppo": "giornate",
+  "visibile": true,
+  "presto": false,
+  "prezzo": "€300",
+  "luoghi": [
+    "it"
+  ],
+  "tipi": [
+    "sunset",
+    "dining"
+  ],
+  "durate": [
+    "1"
+  ],
+  "livelli": [
+    "int",
+    "adv"
+  ],
+  "foto_copertina": "media/land-art/landart-tavola-accesa.jpg",
+  "posizione_copertina": "center 58%",
+  "galleria": [
+    {
+      "foto": "media/land-art/landart-cavaliere-notte.jpg",
+      "didascalia_it": "L’installazione di land art illuminata di notte, con un cavaliere e la tavola apparecchiata",
+      "didascalia_en": "The land art installation lit at night, with a rider and the dinner table",
+      "posizione": "center 72%"
+    },
+    {
+      "foto": "media/land-art/landart-tramonto-cavallo.jpg",
+      "didascalia_it": "Tavola al tramonto sulla spiaggia, tra le sagome dell’installazione e un cavallo sellato",
+      "didascalia_en": "Sunset table on the beach, between the installation’s silhouettes and a saddled horse"
+    },
+    {
+      "foto": "media/land-art/landart-tavola-accesa.jpg",
+      "didascalia_it": "La lunga tavola illuminata davanti all’installazione",
+      "didascalia_en": "The long table lit up in front of the installation"
+    },
+    {
+      "foto": "media/land-art/landart-candele.jpg",
+      "didascalia_it": "Candele e fiori sulla tavola tra le sculture",
+      "didascalia_en": "Candles and flowers on the table among the sculptures"
+    },
+    {
+      "foto": "media/land-art/tavola-lampadario-cavallo.jpg",
+      "didascalia_it": "Una tavola sotto l’albero con un lampadario di candele e un cavallo",
+      "didascalia_en": "A table under a tree with a candle chandelier and a horse"
+    },
+    {
+      "foto": "media/land-art/cavalli-rotoballa-tavola.jpg",
+      "didascalia_it": "Due cavalli intorno a una rotoballa accanto alla tavola apparecchiata",
+      "didascalia_en": "Two horses by a hay bale next to the laid table"
+    },
+    {
+      "foto": "media/land-art/preparazione-tramonto.jpg",
+      "didascalia_it": "Si prepara la tavola al tramonto, con un’amazzone a cavallo",
+      "didascalia_en": "Setting the table at sunset, with a rider on horseback"
+    },
+    {
+      "foto": "media/land-art/tavolata-sera.jpg",
+      "didascalia_it": "La lunga tavolata alla luce delle candele nella sera blu",
+      "didascalia_en": "The long candlelit table in the blue evening"
+    },
+    {
+      "foto": "media/land-art/volti-candele.jpg",
+      "didascalia_it": "Volti alla luce delle candele lungo la tavola",
+      "didascalia_en": "Faces in candlelight along the table"
+    }
+  ],
+  "video": [
+    {
+      "video": "media/land-art/video-landart-tavola.mp4",
+      "anteprima": "media/land-art/video-landart-tavola-poster.jpg",
+      "largo": false
+    },
+    {
+      "video": "media/land-art/video-landart-ospiti.mp4",
+      "anteprima": "media/land-art/video-landart-ospiti-poster.jpg",
+      "largo": false
+    },
+    {
+      "video": "media/land-art/video-landart-cena.mp4",
+      "anteprima": "media/land-art/video-landart-cena-poster.jpg",
+      "largo": false
+    },
+    {
+      "video": "media/land-art/video-landart-notte.mp4",
+      "anteprima": "media/land-art/video-landart-notte-poster.jpg",
+      "largo": false
+    }
+  ],
+  "it": {
+    "titolo": "Tramonto e Cena Land Art",
+    "sottotitolo": "",
+    "luogo": "Maremma · Italia",
+    "intro": "Un pomeriggio a cavallo tra i paesaggi selvaggi della Maremma, fino a una cena all’aperto dentro un’installazione di land art contemporanea.",
+    "paragrafi": [
+      "Mentre la luce cala e i colori si fanno più morbidi, l’esperienza rallenta e diventa più intima, per chiudersi con una cavalcata notturna sotto le stelle.",
+      "La giornata: nel pomeriggio si cavalca tra sentieri di campagna e paesaggi aperti della Maremma, fino a un’installazione di land art scelta da noi per una cena all’aperto curata. La cena viene servita sul posto, immersi nella natura e nell’arte contemporanea (vi chiediamo di comunicarci in anticipo eventuali allergie o esigenze alimentari). Si rientra a cavallo di notte, sotto le stelle, guidati dalla luce della luna lungo sentieri silenziosi.",
+      "Da sapere: il percorso e il luogo dell’installazione possono variare in base alle condizioni meteorologiche e all’accessibilità dei sentieri. La cavalcata notturna si svolge in condizioni di sicurezza ed è adatta a chi è a suo agio con molte ore in sella. Gli orari variano in base alla stagione e all’ora del tramonto.",
+      "Prenotazione: acconto di €120 a persona, saldo il giorno dell’esperienza."
+    ],
+    "dettagli": [
+      {
+        "voce": "Ritrovo",
+        "valore": "Maremma (il punto esatto viene comunicato alla conferma)"
+      },
+      {
+        "voce": "Orario",
+        "valore": "Ritrovo nel pomeriggio – rientro in serata"
+      },
+      {
+        "voce": "In sella",
+        "valore": "Pomeriggio e rientro notturno"
+      },
+      {
+        "voce": "Zona",
+        "valore": "Maremma"
+      },
+      {
+        "voce": "Include",
+        "valore": "Escursione guidata e cena all’aperto"
+      },
+      {
+        "voce": "Prezzo",
+        "valore": "€300 a persona"
+      },
+      {
+        "voce": "Acconto",
+        "valore": "€120 a persona"
+      }
+    ],
+    "punti": [
+      "Pomeriggio e sera",
+      "Per chi regge molte ore in sella"
+    ],
+    "pulsante": "Richiedi disponibilità",
+    "nome_modulo": ""
+  },
+  "en": {
+    "titolo": "Sunset Ride & Land Art Dinner",
+    "sottotitolo": "",
+    "luogo": "Maremma · Italy",
+    "intro": "An afternoon horseback ride through the wild landscapes of the Maremma, leading into an open-air dinner set within a contemporary land art installation.",
+    "paragrafi": [
+      "As daylight fades and colors soften, the experience unfolds at a slower, more intimate pace, ending with a night ride under the stars.",
+      "The ride: an afternoon ride through countryside trails and open landscapes of the Maremma, arriving at a selected land art installation for a curated outdoor dinner. Dinner is served on site, immersed in nature and contemporary art (please inform us in advance of any allergies or dietary restrictions). Night ride back under the stars, guided by moonlight and quiet trails.",
+      "Please note: the route and the land art location may vary depending on weather conditions and trail accessibility. Night riding is conducted in safe conditions and suitable for riders comfortable with extended riding hours. Times vary depending on the season and sunset hours.",
+      "Booking: €120 deposit per person, balance to be paid on the day of the experience."
+    ],
+    "dettagli": [
+      {
+        "voce": "Meeting point",
+        "valore": "Maremma (exact meeting point shared upon confirmation)"
+      },
+      {
+        "voce": "Schedule",
+        "valore": "Meeting in the afternoon – return in the evening"
+      },
+      {
+        "voce": "On horseback",
+        "valore": "Afternoon ride and night ride back"
+      },
+      {
+        "voce": "Area",
+        "valore": "Maremma"
+      },
+      {
+        "voce": "Includes",
+        "valore": "Guided ride and outdoor dinner"
+      },
+      {
+        "voce": "Price",
+        "valore": "€300 per person"
+      },
+      {
+        "voce": "Deposit",
+        "valore": "€120 per person"
+      }
+    ],
+    "punti": [
+      "Afternoon & evening",
+      "For riders comfortable with long hours"
+    ],
+    "pulsante": "Request availability",
+    "nome_modulo": ""
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "id": "other",
+  "ordine": 60,
+  "gruppo": "giornate",
+  "visibile": true,
+  "presto": false,
+  "prezzo": "",
+  "luoghi": [
+    "it"
+  ],
+  "tipi": [
+    "other"
+  ],
+  "durate": [
+    "1"
+  ],
+  "livelli": [
+    "beg",
+    "int",
+    "adv"
+  ],
+  "foto_copertina": "media/cavallo-moto/pascolo-tramonto.jpg",
+  "posizione_copertina": "",
+  "galleria": [
+    {
+      "foto": "media/cavallo-moto/moto-coppia.jpg",
+      "didascalia_it": "Una coppia in moto tra le mandrie al pascolo",
+      "didascalia_en": "A couple on a dirt bike among grazing herds",
+      "posizione": "center 50%"
+    },
+    {
+      "foto": "media/cavallo-moto/cavallo-e-moto.jpg",
+      "didascalia_it": "Un cavallo al trotto e una moto da cross tra le colline",
+      "didascalia_en": "A horse trotting past a dirt bike in the hills"
+    },
+    {
+      "foto": "media/cavallo-moto/nuvola-cavalli.jpg",
+      "didascalia_it": "Cavalli sotto una grande nuvola bianca",
+      "didascalia_en": "Horses beneath a towering white cloud"
+    },
+    {
+      "foto": "media/cavallo-moto/mandria-puledri.jpg",
+      "didascalia_it": "Fattrici e puledri al pascolo",
+      "didascalia_en": "Mares and foals grazing"
+    },
+    {
+      "foto": "media/cavallo-moto/branco-collina.jpg",
+      "didascalia_it": "Il branco in movimento sotto la collina",
+      "didascalia_en": "The herd on the move below the hill"
+    },
+    {
+      "foto": "media/cavallo-moto/puledro.jpg",
+      "didascalia_it": "Un puledro tra i cardi in fiore",
+      "didascalia_en": "A foal among flowering thistles"
+    },
+    {
+      "foto": "media/cavallo-moto/pascolo-tramonto.jpg",
+      "didascalia_it": "Cavalli al pascolo nella luce della sera",
+      "didascalia_en": "Horses grazing in the evening light"
+    },
+    {
+      "foto": "media/cavallo-moto/branco-pascolo.jpg",
+      "didascalia_it": "Il branco sui pascoli d’altura",
+      "didascalia_en": "The herd on the high pastures"
+    },
+    {
+      "foto": "media/cavallo-moto/tra-i-cavalli.jpg",
+      "didascalia_it": "A piedi tra i cavalli liberi",
+      "didascalia_en": "On foot among the free-roaming horses"
+    }
+  ],
+  "video": [
+    {
+      "video": "media/cavallo-moto/video-galoppo-moto.mp4",
+      "anteprima": "media/cavallo-moto/video-galoppo-moto-poster.jpg",
+      "largo": false
+    },
+    {
+      "video": "media/cavallo-moto/video-moto-aperitivo.mp4",
+      "anteprima": "media/cavallo-moto/video-moto-aperitivo-poster.jpg",
+      "largo": false
+    },
+    {
+      "video": "media/cavallo-moto/video-tavola-branco.mp4",
+      "anteprima": "media/cavallo-moto/video-tavola-branco-poster.jpg",
+      "largo": false
+    },
+    {
+      "video": "media/cavallo-moto/video-aperitivo.mp4",
+      "anteprima": "media/cavallo-moto/video-aperitivo-poster.jpg",
+      "largo": false
+    }
+  ],
+  "it": {
+    "titolo": "Cavallo & Moto",
+    "sottotitolo": "Mandrie allo stato brado, moto da cross e aperitivo al tramonto",
+    "luogo": "Cavallo · Moto",
+    "intro": "Un’esperienza che unisce il cavallo e la moto da cross, tra colline aperte e pascoli d’altura dove vivono mandrie di cavalli allo stato brado.",
+    "paragrafi": [
+      "Si va alla scoperta dei branchi, con le fattrici e i loro puledri, lungo sentieri sterrati da percorrere in sella e in moto: due ritmi diversi, lo stesso senso di libertà.",
+      "Al tramonto ci si ferma per un aperitivo all’aperto: una tavola apparecchiata tra l’erba e i cardi in fiore, con bollicine, formaggi e salumi, a pochi passi dai cavalli al pascolo."
+    ],
+    "dettagli": [
+      {
+        "voce": "Formula",
+        "valore": "Cavallo · Moto · Aperitivo"
+      },
+      {
+        "voce": "Durata",
+        "valore": "[ da definire ]"
+      },
+      {
+        "voce": "Livello",
+        "valore": "[ da definire ]"
+      },
+      {
+        "voce": "Prezzo",
+        "valore": "€ — a persona"
+      }
+    ],
+    "punti": [
+      "Cavallo e moto",
+      "Aperitivo al tramonto"
+    ],
+    "pulsante": "Richiedi disponibilità",
+    "nome_modulo": ""
+  },
+  "en": {
+    "titolo": "Horse & Moto",
+    "sottotitolo": "Free-roaming herds, dirt bikes and a sunset aperitivo",
+    "luogo": "Horse · Moto",
+    "intro": "An experience that brings together horses and dirt bikes, across open hills and high pastures where herds of horses roam free.",
+    "paragrafi": [
+      "We set out to find the herds, mares with their foals, along dirt tracks ridden both in the saddle and on two wheels: two different rhythms, the same sense of freedom.",
+      "At sunset we stop for an open-air aperitivo: a table laid among the grass and flowering thistles, with bubbles, cheese and cured meats, a few steps from the grazing horses."
+    ],
+    "dettagli": [
+      {
+        "voce": "Format",
+        "valore": "Horse · Moto · Aperitivo"
+      },
+      {
+        "voce": "Duration",
+        "valore": "[ to be defined ]"
+      },
+      {
+        "voce": "Level",
+        "valore": "[ to be defined ]"
+      },
+      {
+        "voce": "Price",
+        "valore": "€ — per person"
+      }
+    ],
+    "punti": [
+      "Horses & bikes",
+      "Sunset aperitivo"
+    ],
+    "pulsante": "Request availability",
+    "nome_modulo": ""
+  }
+}

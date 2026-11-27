@@ -548,6 +548,8 @@ a.cr:hover{border-color:var(--gold)}
 @media(max-width:600px){.okrw{grid-template-columns:1fr;gap:2px}.okb .btn{width:100%}}
 body.nlb .wacom{bottom:calc(78px + env(safe-area-inset-bottom,0px))}@media(max-width:600px){body.nlb .wacom{bottom:calc(68px + env(safe-area-inset-bottom,0px))}}
 </style>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>if(window.netlifyIdentity){window.netlifyIdentity.on("init",function(u){if(!u){window.netlifyIdentity.on("login",function(){document.location.href="/admin/"})}})}</script>
 </head><body>
 <form name="richieste" data-netlify="true" netlify-honeypot="bot-field" hidden><input type="hidden" name="subject" value="Nuova richiesta dal sito Andante"><input name="tipo"><input name="nome"><input type="email" name="email"><input name="telefono"><textarea name="messaggio"></textarea><input name="bot-field"></form>
 <a class="wacom" href="https://chat.whatsapp.com/Iy4catqRrQt391sy4BDSZX" target="_blank" rel="noopener"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 18.8z"/><path d="M9.2 8.6c.2-.4.5-.4.8-.4h.5c.2 0 .4.1.5.4l.6 1.5c.1.2 0 .5-.1.6l-.5.6c.6 1.1 1.4 1.9 2.5 2.5l.6-.5c.2-.2.4-.2.6-.1l1.5.6c.3.1.4.3.4.5v.5c0 .4-.1.6-.4.8-.6.4-1.5.5-2.4.1a8.6 8.6 0 0 1-4.5-4.5c-.4-.9-.3-1.8.1-2.4z"/></svg><span data-i18n="cwa">Entra nella community</span></a>
@@ -700,117 +702,11 @@ body.nlb .wacom{bottom:calc(78px + env(safe-area-inset-bottom,0px))}@media(max-w
   <div class="grid">
     <div class="ghd day" data-g="day"><h3 data-i18n="gh1">Giornate ed esperienze</h3><p class="swh" data-i18n="swh">Scorri per vederle tutte →</p></div>
     <div class="row">
-    <div class="card" onclick="openExp('mare')">
-      <div class="ci ci-mare"><span class="tag" data-i18n="mareg">TAG</span><span class="ph">[ Foto — Trekking al Mare ]</span></div>
-      <div class="cb"><h3 data-i18n="maret">T</h3>
-      <p data-i18n="marep">P</p>
-      <p class="nx" hidden></p>
-      <div class="cm"><span class="pz"><span data-i18n="pr">Da</span> <b data-ed="p7">€ —</b></span><span class="go"><span data-i18n="sc">Scopri</span> →</span></div></div>
-    </div>
-    <div class="card" onclick="openExp('scan')">
-      <div class="ci ci-scan"><span class="tag" data-i18n="scang">TAG</span><span class="ph">[ Foto — Trekking a Scansano ]</span></div>
-      <div class="cb"><h3 data-i18n="scant">T</h3>
-      <p data-i18n="scanp">P</p>
-      <p class="nx" hidden></p>
-      <div class="cm"><span class="pz"><span data-i18n="pr">Da</span> <b data-ed="p13">€ —</b></span><span class="go"><span data-i18n="sc">Scopri</span> →</span></div></div>
-    </div>
-    <div class="card" onclick="openExp('ovin')">
-      <div class="ci ci-ovin"><span class="tag" data-i18n="oving">TAG</span><span class="ph">[ Foto — Giornata a Ovindoli ]</span></div>
-      <div class="cb"><h3 data-i18n="ovint">T</h3>
-      <p data-i18n="ovinp">P</p>
-      <p class="nx" hidden></p>
-      <div class="cm"><span class="pz"><span data-i18n="pr">Da</span> <b data-ed="p15">€ —</b></span><span class="go"><span data-i18n="sc">Scopri</span> →</span></div></div>
-    </div>
-    <div class="card" onclick="openExp('land')">
-      <div class="ci ci-land"><span class="tag" data-i18n="landg">TAG</span><span class="ph">[ Foto — Tramonto e Cena Land Art ]</span></div>
-      <div class="cb"><h3 data-i18n="landt">T</h3>
-      <p data-i18n="landp">P</p>
-      <p class="nx" hidden></p>
-      <div class="cm"><span class="pz"><span data-i18n="pr">Da</span> <b data-ed="p14">€ —</b></span><span class="go"><span data-i18n="sc">Scopri</span> →</span></div></div>
-    </div>
-    <div class="card" onclick="openExp('dining')">
-      <div class="ci ci-dining"><span class="tag" data-i18n="diningg">TAG</span><span class="ph">[ Foto ]</span></div>
-      <div class="cb"><h3 data-i18n="diningt">T</h3>
-      <p class="csub" data-i18n="dinings">S</p>
-      <p data-i18n="diningp">P</p>
-      <p class="nx" hidden></p>
-      <div class="cm"><span class="pz"><span data-i18n="pr">Da</span> <b data-ed="p10">€ —</b></span><span class="go"><span data-i18n="sc">Scopri</span> →</span></div></div>
-    </div>
-    <div class="card" onclick="openExp('other')">
-      <div class="ci ci-other"><span class="tag" data-i18n="otherg">TAG</span><span class="ph">[ Foto — Cavallo & Moto ]</span></div>
-      <div class="cb"><h3 data-i18n="othert">T</h3>
-      <p class="csub" data-i18n="others">S</p>
-      <p data-i18n="otherp">P</p>
-      <p class="nx" hidden></p>
-      <div class="cm"><span class="pz"><span data-i18n="pr">Da</span> <b data-ed="p11">€ —</b></span><span class="go"><span data-i18n="sc">Scopri</span> →</span></div></div>
-    </div>
-    </div>
+<!--@CARDS:giornate-->
+</div>
     <div class="ghd multi" data-g="multi"><p class="ey" data-i18n="gh2e">Multi-Day Rides</p><h3 data-i18n="gh2">Viaggi di più giorni</h3><p data-i18n="gh2p">P</p><p class="swh" data-i18n="swh">Scorri per vederle tutte →</p></div>
     <div class="row">
-<div class="card" onclick="openExp('wild')">
-      <div class="ci ci-wild"><span class="tag" data-i18n="wildg">TAG</span><span class="ph">[ Foto — Costa Selvaggia ]</span></div>
-      <div class="cb"><h3 data-i18n="wildt">T</h3>
-      <p class="csub" data-i18n="wilds">S</p>
-      <p data-i18n="wildp">P</p>
-      <p class="nx" hidden></p>
-      <div class="cm"><span class="pz"><span data-i18n="pr">Da</span> <b data-ed="p16">€ —</b></span><span class="go"><span data-i18n="sc">Scopri</span> →</span></div></div>
-    </div>
-    <div class="card" onclick="openExp('movi')">
-      <div class="ci ci-movi"><span class="tag" data-i18n="movig">TAG</span><span class="ph">[ Foto — Ovindoli ]</span></div>
-      <div class="cb"><h3 data-i18n="movit">T</h3>
-      <p class="csub" data-i18n="movis">S</p>
-      <p data-i18n="movip">P</p>
-      <p class="nx" hidden></p>
-      <div class="cm"><span class="pz"><span data-i18n="pr">Da</span> <b data-ed="p17">€ —</b></span><span class="go"><span data-i18n="sc">Scopri</span> →</span></div></div>
-    </div>
-    <div class="card" onclick="openExp('mrem')">
-      <div class="ci ci-mrem"><span class="tag" data-i18n="mremg">TAG</span><span class="ph">[ Foto — Parco Naturale della Maremma ]</span></div>
-      <div class="cb"><h3 data-i18n="mremt">T</h3>
-      <p class="csub" data-i18n="mrems">S</p>
-      <p data-i18n="mremp">P</p>
-      <p class="nx" hidden></p>
-      <div class="cm"><span class="pz"><span data-i18n="pr">Da</span> <b data-ed="p18">€ —</b></span><span class="go"><span data-i18n="sc">Scopri</span> →</span></div></div>
-    </div>
-    <div class="card" onclick="openExp('tusc')">
-      <div class="ci ci-tusc"><span class="tag" data-i18n="tuscg">TAG</span><span class="ph">[ Foto — Toscana ]</span></div>
-      <div class="cb"><h3 data-i18n="tusct">T</h3>
-      <p class="csub" data-i18n="tuscs">S</p>
-      <p data-i18n="tuscp">P</p>
-      <p class="nx" hidden></p>
-      <div class="cm"><span class="pz"><span data-i18n="pr">Da</span> <b data-ed="p19">€ —</b></span><span class="go"><span data-i18n="sc">Scopri</span> →</span></div></div>
-    </div>
-    <div class="card" onclick="openExp('dolo')">
-      <div class="ci ci-dolo"><span class="tag" data-i18n="dolog">TAG</span><span class="ph">[ Foto — Dolomiti ]</span></div>
-      <div class="cb"><h3 data-i18n="dolot">T</h3>
-      <p class="csub" data-i18n="dolos">S</p>
-      <p data-i18n="dolop">P</p>
-      <p class="nx" hidden></p>
-      <div class="cm"><span class="pz"><span data-i18n="pr">Da</span> <b data-ed="p20">€ —</b></span><span class="go"><span data-i18n="sc">Scopri</span> →</span></div></div>
-    </div>
-    <div class="card" onclick="openExp('sego')">
-      <div class="ci ci-sego"><span class="tag" data-i18n="segog">TAG</span><span class="ph">[ Foto — Segovia ]</span></div>
-      <div class="cb"><h3 data-i18n="segot">T</h3>
-      <p class="csub" data-i18n="segos">S</p>
-      <p data-i18n="segop">P</p>
-      <p class="nx" hidden></p>
-      <div class="cm"><span class="pz"><span data-i18n="pr">Da</span> <b data-ed="p21">€ —</b></span><span class="go"><span data-i18n="sc">Scopri</span> →</span></div></div>
-    </div>
-    <div class="card" onclick="openExp('cami')">
-      <div class="ci ci-cami"><span class="tag" data-i18n="camig">TAG</span><span class="ph">[ Foto — Cammino di Santiago ]</span></div>
-      <div class="cb"><h3 data-i18n="camit">T</h3>
-      <p class="csub" data-i18n="camis">S</p>
-      <p data-i18n="camip">P</p>
-      <p class="nx" hidden></p>
-      <div class="cm"><span class="pz"><span data-i18n="pr">Da</span> <b data-ed="p22">€ —</b></span><span class="go"><span data-i18n="sc">Scopri</span> →</span></div></div>
-    </div>
-    <div class="card" onclick="openExp('dona')">
-      <div class="ci ci-dona"><span class="tag" data-i18n="donag">TAG</span><span class="ph">[ Foto — Doñana ]</span></div>
-      <div class="cb"><h3 data-i18n="donat">T</h3>
-      <p class="csub" data-i18n="donas">S</p>
-      <p data-i18n="donap">P</p>
-      <p class="nx" hidden></p>
-      <div class="cm"><span class="pz"><span data-i18n="pr">Da</span> <b data-ed="p23">€ —</b></span><span class="go"><span data-i18n="sc">Scopri</span> →</span></div></div>
-    </div>
+<!--@CARDS:piu-giorni-->
         </div>
   </div>
   <p class="fempty" id="fempty" hidden></p>
@@ -822,9 +718,7 @@ body.nlb .wacom{bottom:calc(78px + env(safe-area-inset-bottom,0px))}@media(max-w
 <section id="recensioni">
   <div class="sh"><h2 data-i18n="r0">Dicono di noi</h2><p data-i18n="r1">Le parole di chi ha già cavalcato con noi.</p></div>
   <div class="rv"><div class="rvt">
-    <figure class="rc"><span class="rq">&ldquo;</span><span class="rs" aria-label="5 stelle su 5">★★★★★</span><blockquote data-i18n="rq1">[ Testo di una recensione vera da Tripadvisor ]</blockquote><figcaption data-i18n="ra1">[ Nome · mese anno ]</figcaption></figure>
-    <figure class="rc"><span class="rq">&ldquo;</span><span class="rs" aria-label="5 stelle su 5">★★★★★</span><blockquote data-i18n="rq2">[ Testo di una recensione vera da Tripadvisor ]</blockquote><figcaption data-i18n="ra2">[ Nome · mese anno ]</figcaption></figure>
-    <figure class="rc"><span class="rq">&ldquo;</span><span class="rs" aria-label="5 stelle su 5">★★★★★</span><blockquote data-i18n="rq3">[ Testo di una recensione vera da Tripadvisor ]</blockquote><figcaption data-i18n="ra3">[ Nome · mese anno ]</figcaption></figure>
+<!--@REVIEWS-->
   </div></div>
   <p class="rlink"><a class="btn bg2 ta" href="#recensioni"><span data-i18n="r2">Leggi tutte le recensioni su Tripadvisor</span> &rarr;</a></p>
 </section>
@@ -916,18 +810,7 @@ body.nlb .wacom{bottom:calc(78px + env(safe-area-inset-bottom,0px))}@media(max-w
 <section id="faq">
   <div class="sh"><h2 data-i18n="ff0">Domande Frequenti</h2><p data-i18n="ff1">Le cose che ci chiedono più spesso.</p></div>
   <div class="faq">
-    <details><summary><span data-i18n="fq1"></span></summary><p data-i18n="fa1"></p></details>
-    <details><summary><span data-i18n="fq2"></span></summary><p data-i18n="fa2"></p></details>
-    <details><summary><span data-i18n="fq3"></span></summary><p data-i18n="fa3"></p></details>
-    <details><summary><span data-i18n="fq4"></span></summary><p data-i18n="fa4"></p></details>
-    <details><summary><span data-i18n="fq5"></span></summary><p data-i18n="fa5"></p></details>
-    <details><summary><span data-i18n="fq6"></span></summary><p data-i18n="fa6"></p></details>
-    <details><summary><span data-i18n="fq7"></span></summary><p data-i18n="fa7"></p></details>
-    <details><summary><span data-i18n="fq8"></span></summary><p data-i18n="fa8"></p></details>
-    <details><summary><span data-i18n="fq9"></span></summary><p data-i18n="fa9"></p></details>
-    <details><summary><span data-i18n="fq10"></span></summary><p data-i18n="fa10"></p></details>
-    <details><summary><span data-i18n="fq11"></span></summary><p data-i18n="fa11"></p></details>
-    <details><summary><span data-i18n="fq12"></span></summary><p data-i18n="fa12"></p></details>
+<!--@FAQ-->
   </div>
 </section>
 <section id="contact">

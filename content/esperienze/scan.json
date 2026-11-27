@@ -1,0 +1,130 @@
+{
+  "id": "scan",
+  "ordine": 20,
+  "gruppo": "giornate",
+  "visibile": true,
+  "presto": false,
+  "prezzo": "€270",
+  "luoghi": [
+    "it"
+  ],
+  "tipi": [
+    "oneday"
+  ],
+  "durate": [
+    "1"
+  ],
+  "livelli": [
+    "beg",
+    "int",
+    "adv"
+  ],
+  "foto_copertina": "",
+  "posizione_copertina": "",
+  "galleria": [
+    {
+      "foto": "media/scansano-saturnia.jpg",
+      "didascalia_it": "Due persone galleggiano nelle cascate termali di Saturnia, viste dall’alto",
+      "didascalia_en": "Two people floating in the Saturnia hot springs, seen from above"
+    }
+  ],
+  "video": [],
+  "it": {
+    "titolo": "Trekking a Scansano",
+    "sottotitolo": "",
+    "luogo": "Scansano · Italia",
+    "intro": "Una giornata a cavallo tra le colline dolci della Toscana meridionale, tra vigneti, campi aperti e orizzonti ampi.",
+    "paragrafi": [
+      "Cavalcare a Scansano significa vivere la Maremma nella sua forma più autentica, muovendosi piano tra paesaggi rurali dove natura, silenzio e tradizione danno forma al viaggio.",
+      "La giornata: 4–5 ore a cavallo tra sentieri di campagna, uliveti, fiumi e colline dolci. Pausa pranzo in riva al fiume, organizzata dal nostro staff (vi chiediamo di comunicarci in anticipo eventuali allergie o esigenze alimentari). C’è tempo per godersi il paesaggio e il ritmo tranquillo della Toscana rurale, poi si rientra a cavallo nella luce calda del pomeriggio.",
+      "Da sapere: il percorso può variare in base alle condizioni meteorologiche e all’accessibilità dei sentieri, sempre dando priorità alla sicurezza e alla qualità dell’esperienza. Gli orari possono variare leggermente in base alla stagione e alle ore di luce.",
+      "Prenotazione: acconto di €120 a persona, saldo il giorno dell’esperienza."
+    ],
+    "dettagli": [
+      {
+        "voce": "Ritrovo",
+        "valore": "Scansano (il punto esatto viene comunicato alla conferma)"
+      },
+      {
+        "voce": "Orario",
+        "valore": "Ritrovo alle 10:00 – rientro nel tardo pomeriggio"
+      },
+      {
+        "voce": "In sella",
+        "valore": "4–5 ore"
+      },
+      {
+        "voce": "Zona",
+        "valore": "Colline di Scansano, Maremma"
+      },
+      {
+        "voce": "Include",
+        "valore": "Escursione guidata e pranzo all’aperto"
+      },
+      {
+        "voce": "Prezzo",
+        "valore": "€270 a persona"
+      },
+      {
+        "voce": "Acconto",
+        "valore": "€120 a persona"
+      }
+    ],
+    "punti": [
+      "1 giorno",
+      "Tutti i livelli",
+      "4–5 ore in sella"
+    ],
+    "pulsante": "Richiedi disponibilità",
+    "nome_modulo": ""
+  },
+  "en": {
+    "titolo": "Ride Scansano",
+    "sottotitolo": "",
+    "luogo": "Scansano · Italy",
+    "intro": "A horseback ride through the rolling hills of southern Tuscany, among vineyards, open fields and wide horizons.",
+    "paragrafi": [
+      "Riding in Scansano means experiencing the Maremma at its most authentic, moving slowly through rural landscapes where nature, silence and tradition shape the journey.",
+      "The ride: 4–5 hours on horseback through countryside trails, olive groves, rivers and gentle hills. Lunch break by the river, organized by our staff (please inform us in advance of any allergies or dietary restrictions). Time to enjoy the landscape and the quiet rhythm of rural Tuscany, then a return ride through warm afternoon light.",
+      "Please note: the route may vary depending on weather conditions and trail accessibility, always prioritizing safety and the quality of the experience. Times may vary slightly depending on the season and daylight hours.",
+      "Booking: €120 deposit per person, balance to be paid on the day of the experience."
+    ],
+    "dettagli": [
+      {
+        "voce": "Meeting point",
+        "valore": "Scansano (exact meeting point shared upon confirmation)"
+      },
+      {
+        "voce": "Schedule",
+        "valore": "Meeting at 10:00 AM – return in the late afternoon"
+      },
+      {
+        "voce": "On horseback",
+        "valore": "4–5 hours"
+      },
+      {
+        "voce": "Area",
+        "valore": "The hills of Scansano, Maremma"
+      },
+      {
+        "voce": "Includes",
+        "valore": "Guided ride and outdoor lunch"
+      },
+      {
+        "voce": "Price",
+        "valore": "€270 per person"
+      },
+      {
+        "voce": "Deposit",
+        "valore": "€120 per person"
+      }
+    ],
+    "punti": [
+      "1 day",
+      "All levels",
+      "4–5 h in the saddle"
+    ],
+    "pulsante": "Request availability",
+    "nome_modulo": ""
+  }
+}

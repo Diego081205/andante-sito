@@ -1,0 +1,259 @@
+{
+  "voci": [
+    {
+      "id": "sg0",
+      "it": "Gift card",
+      "en": "Gift card"
+    },
+    {
+      "id": "sg1",
+      "it": "Regala un’esperienza a cavallo",
+      "en": "Give a horseback experience"
+    },
+    {
+      "id": "sg2",
+      "it": "Compila la richiesta: ti mandiamo la gift card in PDF, pronta da stampare o inoltrare, insieme alle indicazioni per il pagamento. È valida 12 mesi, per qualsiasi trekking.",
+      "en": "Fill in the request: we’ll send you the gift card as a PDF, ready to print or forward, along with payment details. It’s valid for 12 months, for any trek."
+    },
+    {
+      "id": "sg3",
+      "it": "Esperienza da regalare",
+      "en": "Experience to give"
+    },
+    {
+      "id": "sg4",
+      "it": "A scelta di chi la riceve",
+      "en": "Recipient’s choice"
+    },
+    {
+      "id": "sg5",
+      "it": "Persone",
+      "en": "People"
+    },
+    {
+      "id": "sg6",
+      "it": "Consegna",
+      "en": "Delivery"
+    },
+    {
+      "id": "sg7",
+      "it": "PDF digitale",
+      "en": "Digital PDF"
+    },
+    {
+      "id": "sg8",
+      "it": "Cartolina fisica",
+      "en": "Physical card"
+    },
+    {
+      "id": "sg9",
+      "it": "Entrambi",
+      "en": "Both"
+    },
+    {
+      "id": "sg10",
+      "it": "Per",
+      "en": "For"
+    },
+    {
+      "id": "sg11",
+      "it": "Da parte di",
+      "en": "From"
+    },
+    {
+      "id": "sg12",
+      "it": "Dedica",
+      "en": "Personal message"
+    },
+    {
+      "id": "sg13",
+      "it": "Nome e cognome",
+      "en": "Full name"
+    },
+    {
+      "id": "sg14",
+      "it": "Email",
+      "en": "Email"
+    },
+    {
+      "id": "sg20",
+      "it": "Cellulare",
+      "en": "Mobile number"
+    },
+    {
+      "id": "sg15",
+      "it": "Anteprima",
+      "en": "Preview"
+    },
+    {
+      "id": "sg16",
+      "it": "Invia la richiesta",
+      "en": "Send request"
+    },
+    {
+      "id": "sg17",
+      "it": "Il nome di chi la riceve",
+      "en": "The recipient’s name"
+    },
+    {
+      "id": "sg18",
+      "it": "La tua dedica apparirà qui.",
+      "en": "Your message will appear here."
+    },
+    {
+      "id": "sg19",
+      "it": "Valida 12 mesi · Shaping unique equestrian experiences",
+      "en": "Valid for 12 months · Shaping unique equestrian experiences"
+    },
+    {
+      "id": "sy1",
+      "it": "Disegna la tua esperienza",
+      "en": "Design your experience"
+    },
+    {
+      "id": "sy2",
+      "it": "Raccontaci cosa hai in mente: ti rispondiamo con una proposta pensata per te e i tuoi ospiti.",
+      "en": "Tell us what you have in mind: we’ll get back to you with a proposal designed for you and your guests."
+    },
+    {
+      "id": "sy3",
+      "it": "Occasione",
+      "en": "Occasion"
+    },
+    {
+      "id": "sy4",
+      "it": "Data o periodo",
+      "en": "Date or period"
+    },
+    {
+      "id": "sy5",
+      "it": "Persone",
+      "en": "People"
+    },
+    {
+      "id": "sy6",
+      "it": "Ambientazione",
+      "en": "Setting"
+    },
+    {
+      "id": "sy7",
+      "it": "Mare",
+      "en": "Seaside"
+    },
+    {
+      "id": "sy8",
+      "it": "Campagna e colline",
+      "en": "Countryside and hills"
+    },
+    {
+      "id": "sy9",
+      "it": "Mare e campagna",
+      "en": "Sea and countryside"
+    },
+    {
+      "id": "sy10",
+      "it": "Da decidere insieme",
+      "en": "To decide together"
+    },
+    {
+      "id": "sy11",
+      "it": "Durata",
+      "en": "Duration"
+    },
+    {
+      "id": "sy12",
+      "it": "Qualche ora",
+      "en": "A few hours"
+    },
+    {
+      "id": "sy13",
+      "it": "Una giornata",
+      "en": "One day"
+    },
+    {
+      "id": "sy14",
+      "it": "Più giorni",
+      "en": "Several days"
+    },
+    {
+      "id": "sy15",
+      "it": "Livello del gruppo",
+      "en": "Group riding level"
+    },
+    {
+      "id": "sy16",
+      "it": "Principianti",
+      "en": "Beginners"
+    },
+    {
+      "id": "sy17",
+      "it": "Misto",
+      "en": "Mixed"
+    },
+    {
+      "id": "sy18",
+      "it": "Esperti",
+      "en": "Experienced"
+    },
+    {
+      "id": "sy19",
+      "it": "Raccontaci la tua idea",
+      "en": "Tell us your idea"
+    },
+    {
+      "id": "sy22",
+      "it": "Altro",
+      "en": "Other"
+    },
+    {
+      "id": "sp0",
+      "it": "Ciao Andante! Vorrei regalare una gift card.",
+      "en": "Hi Andante! I’d like to give a gift card."
+    },
+    {
+      "id": "sp1",
+      "it": "Ciao Andante! Vorrei disegnare un’esperienza su misura.",
+      "en": "Hi Andante! I’d like to design a tailor-made experience."
+    },
+    {
+      "id": "sp2",
+      "it": "Richiesta gift card",
+      "en": "Gift card request"
+    },
+    {
+      "id": "sp3",
+      "it": "Esperienza su misura",
+      "en": "Tailor-made experience"
+    },
+    {
+      "id": "sg21",
+      "it": "Data",
+      "en": "Date"
+    },
+    {
+      "id": "sg22",
+      "it": "Data aperta: la sceglie chi la riceve",
+      "en": "Open date: the recipient chooses"
+    },
+    {
+      "id": "sg23",
+      "it": "Data fissa",
+      "en": "Fixed date"
+    },
+    {
+      "id": "sg24",
+      "it": "Quale partenza",
+      "en": "Which departure"
+    },
+    {
+      "id": "sg25",
+      "it": "Giorno",
+      "en": "Day"
+    },
+    {
+      "id": "sg26",
+      "it": "Un’altra data",
+      "en": "Another date"
+    }
+  ]
+}

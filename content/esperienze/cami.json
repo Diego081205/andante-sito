@@ -1,0 +1,103 @@
+{
+  "id": "cami",
+  "ordine": 130,
+  "gruppo": "piu-giorni",
+  "visibile": true,
+  "presto": true,
+  "prezzo": "",
+  "luoghi": [
+    "es"
+  ],
+  "tipi": [
+    "multi"
+  ],
+  "durate": [
+    "4+"
+  ],
+  "livelli": [
+    "int",
+    "adv"
+  ],
+  "foto_copertina": "",
+  "posizione_copertina": "",
+  "galleria": [
+    {
+      "foto": "media/cammino.jpg",
+      "didascalia_it": "Una fila di cavalieri tra l’erica in fiore sulle montagne del Cammino",
+      "didascalia_en": "A line of riders through flowering heather in the Camino mountains"
+    }
+  ],
+  "video": [],
+  "it": {
+    "titolo": "Cammino di Santiago",
+    "sottotitolo": "Il pellegrinaggio a cavallo",
+    "luogo": "Cammino di Santiago · Spagna",
+    "intro": "Cinque giorni a cavallo lungo il tratto spagnolo del Cammino di Santiago, seguendo le storiche vie dei pellegrini tra villaggi, boschi e campagne aperte.",
+    "paragrafi": [],
+    "dettagli": [
+      {
+        "voce": "Destinazione",
+        "valore": "Cammino di Santiago · Spagna"
+      },
+      {
+        "voce": "Durata",
+        "valore": "5 giorni"
+      },
+      {
+        "voce": "Livello",
+        "valore": "Da intermedio a esperto"
+      },
+      {
+        "voce": "In sella",
+        "valore": "4–6 ore al giorno"
+      },
+      {
+        "voce": "Prezzo da",
+        "valore": "€2.700 a persona"
+      }
+    ],
+    "punti": [
+      "5 giorni",
+      "Da intermedio a esperto",
+      "4–6 ore al giorno in sella"
+    ],
+    "pulsante": "Richiedi più informazioni",
+    "nome_modulo": "Cammino di Santiago — 5 giorni"
+  },
+  "en": {
+    "titolo": "Camino de Santiago",
+    "sottotitolo": "Pilgrimage on Horseback",
+    "luogo": "Camino de Santiago · Spain",
+    "intro": "A five-day horseback journey along the Spanish section of the Camino de Santiago, following historic pilgrimage paths through villages, forests and open countryside.",
+    "paragrafi": [],
+    "dettagli": [
+      {
+        "voce": "Destination",
+        "valore": "Camino de Santiago · Spain"
+      },
+      {
+        "voce": "Duration",
+        "valore": "5 days"
+      },
+      {
+        "voce": "Riding level",
+        "valore": "Intermediate to Expert"
+      },
+      {
+        "voce": "Time in the saddle",
+        "valore": "4–6 hours per day"
+      },
+      {
+        "voce": "Price from",
+        "valore": "€2,700 per person"
+      }
+    ],
+    "punti": [
+      "5 days",
+      "Intermediate to Expert",
+      "4–6 h a day in the saddle"
+    ],
+    "pulsante": "Request more info",
+    "nome_modulo": "Camino de Santiago — 5 days"
+  }
+}

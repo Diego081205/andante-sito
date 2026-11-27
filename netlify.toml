@@ -1,0 +1,13 @@
+# Netlify costruisce il sito da template/ + content/ e pubblica la cartella dist/.
+[build]
+  command = "node scripts/build.mjs"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# il pannello non va indicizzato
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"

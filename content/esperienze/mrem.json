@@ -1,0 +1,104 @@
+{
+  "id": "mrem",
+  "ordine": 90,
+  "gruppo": "piu-giorni",
+  "visibile": true,
+  "presto": true,
+  "prezzo": "",
+  "luoghi": [
+    "it"
+  ],
+  "tipi": [
+    "multi"
+  ],
+  "durate": [
+    "2-3"
+  ],
+  "livelli": [
+    "beg",
+    "int",
+    "adv"
+  ],
+  "foto_copertina": "",
+  "posizione_copertina": "",
+  "galleria": [
+    {
+      "foto": "media/parco-maremma.jpg",
+      "didascalia_it": "La pineta e le colline del Parco Naturale della Maremma",
+      "didascalia_en": "The pine forest and hills of the Maremma Natural Park"
+    }
+  ],
+  "video": [],
+  "it": {
+    "titolo": "Parco Naturale della Maremma",
+    "sottotitolo": "Dune, spiagge e la tradizione dei butteri",
+    "luogo": "Maremma · Italia",
+    "intro": "Un viaggio tra paesaggi costieri protetti, a cavallo tra dune, pinete e spiagge selvagge insieme ai butteri, i cowboy della tradizione toscana.",
+    "paragrafi": [],
+    "dettagli": [
+      {
+        "voce": "Destinazione",
+        "valore": "Maremma · Italia"
+      },
+      {
+        "voce": "Durata",
+        "valore": "2 notti"
+      },
+      {
+        "voce": "Livello",
+        "valore": "Da principiante a esperto"
+      },
+      {
+        "voce": "In sella",
+        "valore": "3–4 ore al giorno"
+      },
+      {
+        "voce": "Prezzo da",
+        "valore": "€1.200 a persona"
+      }
+    ],
+    "punti": [
+      "2 notti",
+      "Da principiante a esperto",
+      "3–4 ore al giorno in sella"
+    ],
+    "pulsante": "Richiedi più informazioni",
+    "nome_modulo": "Parco Naturale della Maremma — 2 notti"
+  },
+  "en": {
+    "titolo": "Maremma Natural Park",
+    "sottotitolo": "Dunes, Beaches & Butteri Tradition",
+    "luogo": "Maremma · Italy",
+    "intro": "A journey through protected coastal landscapes, riding between dunes, pine forests and wild beaches alongside the butteri, the traditional Tuscan cowboys.",
+    "paragrafi": [],
+    "dettagli": [
+      {
+        "voce": "Destination",
+        "valore": "Maremma · Italy"
+      },
+      {
+        "voce": "Duration",
+        "valore": "2 nights"
+      },
+      {
+        "voce": "Riding level",
+        "valore": "Beginner to Expert"
+      },
+      {
+        "voce": "Time in the saddle",
+        "valore": "3–4 hours per day"
+      },
+      {
+        "voce": "Price from",
+        "valore": "€1,200 per person"
+      }
+    ],
+    "punti": [
+      "2 nights",
+      "Beginner to Expert",
+      "3–4 h a day in the saddle"
+    ],
+    "pulsante": "Request more info",
+    "nome_modulo": "Maremma Natural Park — 2 nights"
+  }
+}

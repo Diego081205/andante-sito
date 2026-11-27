@@ -1,0 +1,76 @@
+{
+  "voci": [
+    {
+      "domanda_it": "Che livello di equitazione serve?",
+      "risposta_it": "Nessuno in particolare. I nostri trekking sono adatti a tutti, da chi sale a cavallo per la prima volta ai cavalieri esperti. Nel gruppo ci sono sempre più guide, così possiamo adattarci a livelli e andature diverse: i principianti restano a un passo tranquillo, mentre i più esperti possono godersi trotto e galoppo dove il terreno lo permette.",
+      "domanda_en": "What riding level do I need?",
+      "risposta_en": "None in particular. Our treks are suitable for everyone, from first-timers to experienced riders. We always have more than one guide with the group, so we can adapt to different levels and paces: beginners stay at a relaxed walk, while experienced riders can enjoy trot and canter where the terrain allows it."
+    },
+    {
+      "domanda_it": "Non sono mai andato a cavallo. Va bene davvero?",
+      "risposta_it": "Assolutamente sì. Prima di partire la guida ti spiega le basi e ti affida un cavallo calmo e affidabile. Sarai seguito per tutta la durata dell’uscita.",
+      "domanda_en": "I’ve never ridden before. Is that really okay?",
+      "risposta_en": "Absolutely. Before setting off, your guide will explain the basics and match you with a calm, reliable horse. You’ll be looked after throughout the ride."
+    },
+    {
+      "domanda_it": "Cos’è la sella western, ed è comoda?",
+      "risposta_it": "Montiamo con selle western (americane), pensate per passare molte ore in sella. Sono larghe e profonde, con una seduta stabile e un pomo davanti a cui tenersi: per questo molti le trovano più comode e rassicuranti delle selle inglesi, soprattutto nei trekking più lunghi. Non serve alcuna esperienza di monta western.",
+      "domanda_en": "What is a Western saddle, and is it comfortable?",
+      "risposta_en": "We ride with Western (American) saddles, which are designed for long hours on horseback. They are wide and deep, with a secure seat and a horn at the front to hold on to, so many riders find them more comfortable and reassuring than English saddles, especially on longer treks. No previous experience with Western riding is needed."
+    },
+    {
+      "domanda_it": "Come mi vesto in estate?",
+      "risposta_it": "L’ideale sono pantaloni lunghi leggeri e traspiranti (jeans o pantaloni da equitazione), anche con il caldo, per evitare sfregamenti con la sella. Aggiungi una maglietta leggera, un cappello, occhiali da sole e crema solare. Servono scarpe chiuse o stivali con un piccolo tacco: niente sandali né scarpe da ginnastica con la suola spessa. Porta dell’acqua.",
+      "domanda_en": "What should I wear in summer?",
+      "risposta_en": "Lightweight, breathable long trousers (jeans or riding trousers) are best, even in the heat, to avoid chafing from the saddle. Add a light T-shirt, a hat or cap, sunglasses and sunscreen. Closed shoes or boots with a small heel are required; no sandals or trainers with thick soles. Bring water."
+    },
+    {
+      "domanda_it": "Come mi vesto in inverno?",
+      "risposta_it": "Vestiti a strati: maglia termica, pile o maglione e una giacca antivento o impermeabile. Guanti caldi, un berretto che stia sotto il casco e calze pesanti fanno una grande differenza. Indossa stivali con un piccolo tacco ed evita sciarpe o capi larghi che potrebbero impigliarsi.",
+      "domanda_en": "What should I wear in winter?",
+      "risposta_en": "Dress in layers: thermal base layer, fleece or sweater and a windproof or waterproof jacket. Warm gloves, a hat that fits under the helmet and thick socks make a big difference. Wear boots with a small heel, and avoid scarves or loose clothing that could catch."
+    },
+    {
+      "domanda_it": "Devo portare casco o stivali?",
+      "risposta_it": "[Forniamo il casco a tutti i partecipanti. / Stivali e ghette possono essere prestati su richiesta.] Indicaci il tuo numero di scarpe al momento della prenotazione.",
+      "domanda_en": "Do I need to bring a helmet or boots?",
+      "risposta_en": "[We provide helmets for all riders. / Boots and chaps can be borrowed on request.] Please let us know your shoe size when booking."
+    },
+    {
+      "domanda_it": "Ci sono limiti di peso o di età?",
+      "risposta_it": "[Aggiungete i vostri limiti, ad esempio peso massimo ed età minima.] Servono per la sicurezza e il benessere di cavalieri e cavalli. Se hai dubbi contattaci e troveremo insieme la soluzione migliore.",
+      "domanda_en": "Is there a weight or age limit?",
+      "risposta_en": "[Add your limits, e.g. maximum weight and minimum age.] This is for the safety and comfort of both riders and horses. Contact us if you’re unsure and we’ll find the best solution."
+    },
+    {
+      "domanda_it": "Quanto durano i trekking e quante persone ci sono per gruppo?",
+      "risposta_it": "[Durate da X ore a Y giorni; massimo N cavalieri per gruppo.]",
+      "domanda_en": "How long are the treks, and how many people per group?",
+      "risposta_en": "[Durations from X hours to Y days; maximum N riders per group.]"
+    },
+    {
+      "domanda_it": "Cosa succede in caso di maltempo?",
+      "risposta_it": "La sicurezza prima di tutto. Se le condizioni non sono sicure, sposteremo il trekking o ti offriremo un rimborso [secondo le vostre condizioni]. Una pioggia leggera di solito non ci ferma, quindi porta una giacca impermeabile.",
+      "domanda_en": "What happens if the weather is bad?",
+      "risposta_en": "Safety comes first. If conditions are unsafe, we’ll reschedule your trek or offer a refund [according to your policy]. Light rain doesn’t normally stop us, so bring a waterproof jacket."
+    },
+    {
+      "domanda_it": "Come si prenota, e posso cancellare?",
+      "risposta_it": "[Modalità di prenotazione, acconto, condizioni di cancellazione.]",
+      "domanda_en": "How do I book, and can I cancel?",
+      "risposta_en": "[Booking process, deposit, cancellation terms.]"
+    },
+    {
+      "domanda_it": "Posso fare foto durante l’uscita?",
+      "risposta_it": "Sì, ma ti consigliamo di tenere il telefono in una tasca con la zip o fissato ai vestiti. [Se vuoi, possiamo anche scattare noi le foto per te.]",
+      "domanda_en": "Can I take photos during the ride?",
+      "risposta_en": "Yes, but we recommend keeping your phone in a zipped pocket or secured to your clothing. [We can also take photos for you, if you’d like.]"
+    },
+    {
+      "domanda_it": "Posso prenotare un trekking privato o su misura?",
+      "risposta_it": "Sì: guarda la sezione Disegna la tua esperienza per proposte di matrimonio, compleanni, eventi aziendali e addii al celibato o al nubilato. Sono disponibili anche le gift card.",
+      "domanda_en": "Can I book a private or customised trek?",
+      "risposta_en": "Yes: see our Design Your Own Experience section for proposals, birthdays, corporate events and hen or stag parties. Gift cards are available too."
+    }
+  ]
+}

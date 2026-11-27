@@ -1,0 +1,95 @@
+{
+  "luoghi": [
+    {
+      "codice": "it",
+      "it": "Italia",
+      "en": "Italy"
+    },
+    {
+      "codice": "es",
+      "it": "Spagna",
+      "en": "Spain"
+    },
+    {
+      "codice": "pt",
+      "it": "Portogallo",
+      "en": "Portugal"
+    },
+    {
+      "codice": "world",
+      "it": "Nel mondo",
+      "en": "Worldwide"
+    }
+  ],
+  "tipi": [
+    {
+      "codice": "oneday",
+      "it": "One Day",
+      "en": "One Day"
+    },
+    {
+      "codice": "multi",
+      "it": "Multi-Day",
+      "en": "Multi-Day"
+    },
+    {
+      "codice": "sunset",
+      "it": "Sunset & Night",
+      "en": "Sunset & Night"
+    },
+    {
+      "codice": "dining",
+      "it": "Riding & Dining",
+      "en": "Riding & Dining"
+    },
+    {
+      "codice": "other",
+      "it": "Beyond Horse Riding",
+      "en": "Beyond Horse Riding"
+    },
+    {
+      "codice": "gift",
+      "it": "Gift Card",
+      "en": "Gift Card"
+    },
+    {
+      "codice": "custom",
+      "it": "Design Your Own Experience",
+      "en": "Design Your Own Experience"
+    }
+  ],
+  "durate": [
+    {
+      "codice": "1",
+      "it": "1 giorno",
+      "en": "1 day"
+    },
+    {
+      "codice": "2-3",
+      "it": "2–3 giorni",
+      "en": "2–3 days"
+    },
+    {
+      "codice": "4+",
+      "it": "4+ giorni",
+      "en": "4+ days"
+    }
+  ],
+  "livelli": [
+    {
+      "codice": "beg",
+      "it": "Principiante",
+      "en": "Beginner"
+    },
+    {
+      "codice": "int",
+      "it": "Intermedio",
+      "en": "Intermediate"
+    },
+    {
+      "codice": "adv",
+      "it": "Avanzato",
+      "en": "Advanced"
+    }
+  ]
+}

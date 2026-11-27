@@ -1,0 +1,245 @@
+# Pannello di controllo di Andante (Decap CMS)
+# Ogni "Pubblica" salva su GitHub e Netlify ripubblica il sito in circa un minuto.
+
+backend:
+  name: git-gateway
+  branch: main
+  commit_messages:
+    create: 'Aggiunto {{collection}} “{{slug}}”'
+    update: 'Modificato {{collection}} “{{slug}}”'
+    delete: 'Eliminato {{collection}} “{{slug}}”'
+    uploadMedia: 'Caricata foto “{{path}}”'
+    deleteMedia: 'Eliminata foto “{{path}}”'
+
+locale: it
+site_url: https://andantehorseriding.com
+display_url: https://andantehorseriding.com
+
+media_folder: media/uploads
+public_folder: media/uploads
+
+collections:
+
+  # ---------------------------------------------------------------- ESPERIENZE
+  - name: esperienze
+    label: Esperienze
+    label_singular: Esperienza
+    description: >-
+      Le card del sito e le schede che si aprono cliccandoci. Per nascondere un'esperienza senza cancellarla,
+      togli la spunta "Visibile sul sito". L'inglese è facoltativo: se un campo inglese è vuoto si usa l'italiano.
+    folder: content/esperienze
+    extension: json
+    format: json
+    create: true
+    delete: true
+    slug: '{{id}}'
+    identifier_field: id
+    summary: '{{it.titolo}}  ·  {{prezzo}}'
+    sortable_fields: ['ordine', 'id']
+    view_groups:
+      - { label: Gruppo, field: gruppo }
+    fields:
+      - { label: 'Codice (solo lettere minuscole e numeri, senza spazi — es. "mare")', name: id, widget: string,
+          pattern: ['^[a-z0-9]+$', 'Solo lettere minuscole e numeri, senza spazi'],
+          hint: 'Si sceglie una volta sola, quando crei l’esperienza. Non cambiarlo dopo: lo usano le date e i moduli.' }
+      - { label: Visibile sul sito, name: visibile, widget: boolean, default: true }
+      - { label: '“Coming soon” (si vede ma non si può aprire)', name: presto, widget: boolean, default: false, required: false }
+      - { label: Ordine, name: ordine, widget: number, value_type: int, default: 100,
+          hint: 'Numero più basso = più a sinistra. Es. 10, 20, 30… (lascia spazi per inserirne altre in mezzo)' }
+      - label: Gruppo
+        name: gruppo
+        widget: select
+        default: giornate
+        options:
+          - { label: 'Giornate ed esperienze', value: giornate }
+          - { label: 'Viaggi di più giorni', value: piu-giorni }
+      - { label: 'Prezzo sulla card (es. €270)', name: prezzo, widget: string, required: false,
+          hint: 'Compare come “Da €270”. Il prezzo dettagliato va nella tabella Dettagli qui sotto.' }
+
+      - { label: Luoghi (filtro), name: luoghi, widget: relation, collection: impostazioni, file: filtri,
+          value_field: 'luoghi.*.codice', search_fields: ['luoghi.*.it'], display_fields: ['luoghi.*.it'], multiple: true, required: false }
+      - { label: Tipo (filtro), name: tipi, widget: relation, collection: impostazioni, file: filtri,
+          value_field: 'tipi.*.codice', search_fields: ['tipi.*.it'], display_fields: ['tipi.*.it'], multiple: true, required: false }
+      - { label: Durata (filtro), name: durate, widget: relation, collection: impostazioni, file: filtri,
+          value_field: 'durate.*.codice', search_fields: ['durate.*.it'], display_fields: ['durate.*.it'], multiple: true, required: false }
+      - { label: Livello (filtro), name: livelli, widget: relation, collection: impostazioni, file: filtri,
+          value_field: 'livelli.*.codice', search_fields: ['livelli.*.it'], display_fields: ['livelli.*.it'], multiple: true, required: false }
+
+      - { label: Foto grande in cima alla scheda, name: foto_copertina, widget: image, required: false,
+          hint: 'Se vuota si usa la prima foto della galleria.' }
+      - { label: 'Inquadratura foto grande (facoltativo, es. "center 55%")', name: posizione_copertina, widget: string, required: false }
+      - label: Galleria foto
+        name: galleria
+        widget: list
+        required: false
+        summary: '{{fields.didascalia_it}}'
+        hint: 'La prima foto è anche quella della card.'
+        fields:
+          - { label: Foto, name: foto, widget: image }
+          - { label: Descrizione foto (italiano), name: didascalia_it, widget: string, required: false }
+          - { label: Descrizione foto (inglese), name: didascalia_en, widget: string, required: false }
+          - { label: 'Inquadratura sulla card (facoltativo, es. "center 40%")', name: posizione, widget: string, required: false }
+      - label: Video
+        name: video
+        widget: list
+        required: false
+        summary: '{{fields.video}}'
+        fields:
+          - { label: Video (mp4, max ~10 MB), name: video, widget: file }
+          - { label: Immagine di anteprima, name: anteprima, widget: image, required: false }
+          - { label: Video largo, name: largo, widget: boolean, default: false, required: false }
+
+      - label: Testi in italiano
+        name: it
+        widget: object
+        collapsed: false
+        fields: &testi_esperienza
+          - { label: Titolo, name: titolo, widget: string }
+          - { label: Sottotitolo (facoltativo), name: sottotitolo, widget: string, required: false }
+          - { label: 'Luogo (es. "Maremma · Italia")', name: luogo, widget: string, required: false }
+          - { label: Frase breve (card e inizio scheda), name: intro, widget: text, required: false }
+          - label: Paragrafi della scheda
+            name: paragrafi
+            widget: list
+            required: false
+            field: { label: Paragrafo, name: testo, widget: text }
+          - label: 'Dettagli (tabella: Ritrovo, Orario, Prezzo…)'
+            name: dettagli
+            widget: list
+            required: false
+            summary: '{{fields.voce}}: {{fields.valore}}'
+            fields:
+              - { label: Voce, name: voce, widget: string }
+              - { label: Valore, name: valore, widget: string }
+          - label: 'Punti chiave sulla card (es. "1 giorno", "Tutti i livelli")'
+            name: punti
+            widget: list
+            required: false
+            field: { label: Punto, name: punto, widget: string }
+          - { label: Testo del pulsante, name: pulsante, widget: string, required: false }
+          - { label: 'Nome nel modulo di prenotazione (facoltativo)', name: nome_modulo, widget: string, required: false }
+      - label: Testi in inglese (facoltativi)
+        name: en
+        widget: object
+        collapsed: true
+        required: false
+        fields:
+          - { label: Titolo, name: titolo, widget: string, required: false }
+          - { label: Sottotitolo, name: sottotitolo, widget: string, required: false }
+          - { label: Luogo, name: luogo, widget: string, required: false }
+          - { label: Frase breve, name: intro, widget: text, required: false }
+          - label: Paragrafi della scheda
+            name: paragrafi
+            widget: list
+            required: false
+            field: { label: Paragrafo, name: testo, widget: text }
+          - label: Dettagli
+            name: dettagli
+            widget: list
+            required: false
+            summary: '{{fields.voce}}: {{fields.valore}}'
+            fields:
+              - { label: Voce, name: voce, widget: string }
+              - { label: Valore, name: valore, widget: string }
+          - label: Punti chiave sulla card
+            name: punti
+            widget: list
+            required: false
+            field: { label: Punto, name: punto, widget: string }
+          - { label: Testo del pulsante, name: pulsante, widget: string, required: false }
+          - { label: Nome nel modulo di prenotazione, name: nome_modulo, widget: string, required: false }
+
+  # ---------------------------------------------------------------- DATE, RECENSIONI, FAQ
+  - name: calendario
+    label: Date, recensioni e FAQ
+    files:
+      - name: date
+        label: Date di partenza
+        file: content/date.json
+        description: 'Le date compaiono in “Prossime partenze”, sulle card e nei moduli. Le date passate spariscono da sole.'
+        fields:
+          - label: Partenze
+            name: partenze
+            widget: list
+            required: false
+            summary: '{{fields.dal}} — {{fields.esperienza}}'
+            fields:
+              - { label: Esperienza, name: esperienza, widget: relation, collection: esperienze,
+                  value_field: id, search_fields: ['it.titolo', 'id'], display_fields: ['it.titolo'] }
+              - { label: Dal, name: dal, widget: datetime, format: 'YYYY-MM-DD', date_format: 'DD/MM/YYYY', time_format: false }
+              - { label: 'Al (solo se dura più giorni)', name: al, widget: datetime, format: 'YYYY-MM-DD', date_format: 'DD/MM/YYYY', time_format: false, required: false }
+              - { label: 'Luogo (facoltativo)', name: luogo, widget: relation, collection: impostazioni, file: filtri,
+                  value_field: 'luoghi.*.codice', search_fields: ['luoghi.*.it'], display_fields: ['luoghi.*.it'], required: false }
+      - name: recensioni
+        label: Recensioni
+        file: content/recensioni.json
+        fields:
+          - label: Recensioni
+            name: voci
+            widget: list
+            required: false
+            summary: '{{fields.autore_it}}'
+            fields:
+              - { label: Testo (italiano), name: testo_it, widget: text }
+              - { label: Testo (inglese), name: testo_en, widget: text, required: false }
+              - { label: 'Nome (italiano, es. "Giulia · maggio 2026")', name: autore_it, widget: string }
+              - { label: Nome (inglese), name: autore_en, widget: string, required: false }
+              - { label: Stelle, name: stelle, widget: number, value_type: int, min: 1, max: 5, default: 5 }
+      - name: faq
+        label: Domande frequenti (FAQ)
+        file: content/faq.json
+        fields:
+          - label: Domande
+            name: voci
+            widget: list
+            required: false
+            summary: '{{fields.domanda_it}}'
+            fields:
+              - { label: Domanda (italiano), name: domanda_it, widget: string }
+              - { label: Risposta (italiano), name: risposta_it, widget: text }
+              - { label: Domanda (inglese), name: domanda_en, widget: string, required: false }
+              - { label: Risposta (inglese), name: risposta_en, widget: text, required: false }
+
+  # ---------------------------------------------------------------- TESTI
+  - name: testi
+    label: Testi del sito
+    description: 'Tutti gli altri testi della pagina, divisi per sezione. Ogni riga ha la versione italiana e quella inglese.'
+    files:
+      - { name: menu, label: 'Menu e copertina', file: content/testi/menu.json, fields: &voci [ { label: Testi, name: voci, widget: list, allow_add: false, summary: '{{fields.it}}', fields: [ { label: Codice, name: id, widget: hidden }, { label: Italiano, name: it, widget: text, required: false }, { label: Inglese, name: en, widget: text, required: false } ] } ] }
+      - { name: esperienze, label: 'Sezione esperienze e filtri', file: content/testi/esperienze.json, fields: *voci }
+      - { name: chi-siamo, label: 'Chi siamo e manifesto', file: content/testi/chi-siamo.json, fields: *voci }
+      - { name: recensioni-stampa, label: 'Titoli recensioni e “Parlano di noi”', file: content/testi/recensioni-stampa.json, fields: *voci }
+      - { name: gift, label: 'Gift card e su misura', file: content/testi/gift.json, fields: *voci }
+      - { name: faq-contatti, label: 'Titoli FAQ e contatti', file: content/testi/faq-contatti.json, fields: *voci }
+      - { name: moduli, label: 'Moduli di richiesta', file: content/testi/moduli.json, fields: *voci }
+
+  # ---------------------------------------------------------------- IMPOSTAZIONI
+  - name: impostazioni
+    label: Impostazioni
+    files:
+      - name: generali
+        label: Contatti e foto principali
+        file: content/impostazioni.json
+        fields:
+          - { label: Email, name: email, widget: string }
+          - { label: 'WhatsApp (con prefisso, es. 393401234567)', name: whatsapp, widget: string, required: false }
+          - { label: Link alla pagina Tripadvisor, name: tripadvisor, widget: string, required: false }
+          - { label: Video della copertina (mp4), name: video_copertina, widget: file, required: false }
+          - { label: Immagine di anteprima del video, name: anteprima_video, widget: image, required: false }
+          - { label: Foto “Chi siamo”, name: foto_chi_siamo, widget: image, required: false }
+      - name: filtri
+        label: Voci dei filtri (luoghi, tipi, durate, livelli)
+        file: content/filtri.json
+        description: 'Le scelte che compaiono nei filtri “Trova la tua esperienza”. Il codice non va cambiato una volta usato.'
+        fields:
+          - label: Luoghi
+            name: luoghi
+            widget: list
+            summary: '{{fields.it}}'
+            fields: &opzione
+              - { label: 'Codice (minuscolo, senza spazi)', name: codice, widget: string, pattern: ['^[a-z0-9+-]+$', 'Solo minuscole, numeri, + e -'] }
+              - { label: Italiano, name: it, widget: string }
+              - { label: Inglese, name: en, widget: string, required: false }
+          - { label: Tipi di esperienza, name: tipi, widget: list, summary: '{{fields.it}}', fields: *opzione }
+          - { label: Durate, name: durate, widget: list, summary: '{{fields.it}}', fields: *opzione }
+          - { label: Livelli, name: livelli, widget: list, summary: '{{fields.it}}', fields: *opzione }

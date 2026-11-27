@@ -1,0 +1,25 @@
+{
+  "voci": [
+    {
+      "testo_it": "Esperienza semplicemente indimenticabile! Il trekking a cavallo è stato meraviglioso: cavalli perfetti, anche per chi non ha molta esperienza. A rendere tutto ancora più speciale la cena elegante all’aperto: atmosfera curata, cibo ottimo e servizio impeccabile. Un mix perfetto tra avventura e raffinatezza. Consigliatissimo a chi vuole vivere qualcosa di unico e autentico. Tornerò sicuramente!",
+      "testo_en": "Simply unforgettable! The horseback trek was wonderful: perfect horses, even for those without much experience. What made it even more special was the elegant outdoor dinner: a carefully set atmosphere, excellent food and impeccable service. A perfect mix of adventure and refinement. Highly recommended to anyone who wants to live something unique and authentic. I’ll definitely be back!",
+      "autore_it": "Giano",
+      "autore_en": "Giano",
+      "stelle": 5
+    },
+    {
+      "testo_it": "Giornata perfetta dall’inizio alla fine: cavalli affidabili e ben addestrati, percorso nella natura rigenerante e silenzioso. Il pranzo, semplice ma elegante, ha aggiunto quel tocco in più. Un’esperienza autentica, lontana dal caos. Consigliato.",
+      "testo_en": "A perfect day from start to finish: reliable, well-trained horses and a restorative, quiet route through nature. The lunch, simple yet elegant, added that extra touch. An authentic experience, far from the chaos. Recommended.",
+      "autore_it": "Doriano",
+      "autore_en": "Doriano",
+      "stelle": 5
+    },
+    {
+      "testo_it": "Guia e Zoe sono state due guide fantastiche! Un piccolo lusso nella natura: cavalcata piacevole con cavalli impeccabili, paesaggi che valgono il viaggio e un pranzo curato nei dettagli. Tutto scorre con semplicità ma grande qualità. Esperienza che resta.",
+      "testo_en": "Guia and Zoe were two fantastic guides! A small luxury in nature: a pleasant ride on impeccable horses, landscapes worth the trip and a lunch cared for down to the last detail. Everything flows simply but with great quality. An experience that stays with you.",
+      "autore_it": "Lorenzo",
+      "autore_en": "Lorenzo",
+      "stelle": 5
+    }
+  ]
+}

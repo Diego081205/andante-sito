@@ -1,0 +1,104 @@
+{
+  "id": "sego",
+  "ordine": 120,
+  "gruppo": "piu-giorni",
+  "visibile": true,
+  "presto": true,
+  "prezzo": "",
+  "luoghi": [
+    "es"
+  ],
+  "tipi": [
+    "multi"
+  ],
+  "durate": [
+    "2-3",
+    "4+"
+  ],
+  "livelli": [
+    "int",
+    "adv"
+  ],
+  "foto_copertina": "",
+  "posizione_copertina": "",
+  "galleria": [
+    {
+      "foto": "media/segovia.jpg",
+      "didascalia_it": "Il centro storico di Segovia con la cattedrale",
+      "didascalia_en": "The old town of Segovia with its cathedral"
+    }
+  ],
+  "video": [],
+  "it": {
+    "titolo": "Segovia",
+    "sottotitolo": "Altopiani castigliani e antiche vie",
+    "luogo": "Segovia · Spagna",
+    "intro": "Una cavalcata tra i vasti altopiani della Spagna centrale, lungo antiche vie della transumanza e della pastorizia, segnate dalla storia e da orizzonti aperti.",
+    "paragrafi": [],
+    "dettagli": [
+      {
+        "voce": "Destinazione",
+        "valore": "Segovia · Spagna"
+      },
+      {
+        "voce": "Durata",
+        "valore": "Da 3 a 5 giorni"
+      },
+      {
+        "voce": "Livello",
+        "valore": "Da intermedio a esperto"
+      },
+      {
+        "voce": "In sella",
+        "valore": "3–5 ore al giorno"
+      },
+      {
+        "voce": "Prezzo da",
+        "valore": "€1.950 a persona"
+      }
+    ],
+    "punti": [
+      "Da 3 a 5 giorni",
+      "Da intermedio a esperto",
+      "3–5 ore al giorno in sella"
+    ],
+    "pulsante": "Richiedi più informazioni",
+    "nome_modulo": "Segovia — Da 3 a 5 giorni"
+  },
+  "en": {
+    "titolo": "Segovia",
+    "sottotitolo": "Castilian Plains & Ancient Routes",
+    "luogo": "Segovia · Spain",
+    "intro": "A ride across the wide plateaus of central Spain, following ancient transhumance and pastoral routes shaped by history and open horizons.",
+    "paragrafi": [],
+    "dettagli": [
+      {
+        "voce": "Destination",
+        "valore": "Segovia · Spain"
+      },
+      {
+        "voce": "Duration",
+        "valore": "3 to 5 days"
+      },
+      {
+        "voce": "Riding level",
+        "valore": "Intermediate to Expert"
+      },
+      {
+        "voce": "Time in the saddle",
+        "valore": "3–5 hours per day"
+      },
+      {
+        "voce": "Price from",
+        "valore": "€1,950 per person"
+      }
+    ],
+    "punti": [
+      "3 to 5 days",
+      "Intermediate to Expert",
+      "3–5 h a day in the saddle"
+    ],
+    "pulsante": "Request more info",
+    "nome_modulo": "Segovia — 3 to 5 days"
+  }
+}

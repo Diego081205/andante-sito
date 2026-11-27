@@ -1,0 +1,108 @@
+{
+  "id": "dona",
+  "ordine": 140,
+  "gruppo": "piu-giorni",
+  "visibile": true,
+  "presto": true,
+  "prezzo": "",
+  "luoghi": [
+    "es"
+  ],
+  "tipi": [
+    "multi"
+  ],
+  "durate": [
+    "4+"
+  ],
+  "livelli": [
+    "int",
+    "adv"
+  ],
+  "foto_copertina": "",
+  "posizione_copertina": "",
+  "galleria": [
+    {
+      "foto": "media/donana.jpg",
+      "didascalia_it": "Una cavalla e il suo puledro nelle paludi di Doñana",
+      "didascalia_en": "A mare and her foal in the Doñana wetlands",
+      "posizione": "42% center"
+    }
+  ],
+  "video": [],
+  "it": {
+    "titolo": "Doñana",
+    "sottotitolo": "Paludi, dune e la tradizione equestre di El Rocío",
+    "luogo": "Doñana · Spagna",
+    "intro": "Un viaggio unico in una delle riserve naturali più straordinarie d’Europa, a cavallo tra zone umide, dune e paesaggi aperti modellati dall’acqua e dalla fauna selvatica.",
+    "paragrafi": [
+      "Il percorso passa vicino a El Rocío, villaggio famoso in tutto il mondo per la sua profonda tradizione equestre e la sua devozione alla cultura del cavallo."
+    ],
+    "dettagli": [
+      {
+        "voce": "Destinazione",
+        "valore": "Doñana · Spagna"
+      },
+      {
+        "voce": "Durata",
+        "valore": "4 notti"
+      },
+      {
+        "voce": "Livello",
+        "valore": "Da intermedio a esperto"
+      },
+      {
+        "voce": "In sella",
+        "valore": "3–5 ore al giorno"
+      },
+      {
+        "voce": "Prezzo da",
+        "valore": "€3.600 a persona"
+      }
+    ],
+    "punti": [
+      "4 notti",
+      "Da intermedio a esperto",
+      "3–5 ore al giorno in sella"
+    ],
+    "pulsante": "Richiedi più informazioni",
+    "nome_modulo": "Doñana — 4 notti"
+  },
+  "en": {
+    "titolo": "Doñana",
+    "sottotitolo": "Wetlands, Sand Dunes & Equestrian Tradition of El Rocío",
+    "luogo": "Doñana · Spain",
+    "intro": "A unique journey through one of Europe’s most extraordinary natural reserves, riding through wetlands, dunes and open landscapes shaped by water and wildlife.",
+    "paragrafi": [
+      "The route passes near El Rocío, a village world-famous for its deep equestrian tradition and devotion to horseback culture."
+    ],
+    "dettagli": [
+      {
+        "voce": "Destination",
+        "valore": "Doñana · Spain"
+      },
+      {
+        "voce": "Duration",
+        "valore": "4 nights"
+      },
+      {
+        "voce": "Riding level",
+        "valore": "Intermediate to Expert"
+      },
+      {
+        "voce": "Time in the saddle",
+        "valore": "3–5 hours per day"
+      },
+      {
+        "voce": "Price from",
+        "valore": "€3,600 per person"
+      }
+    ],
+    "punti": [
+      "4 nights",
+      "Intermediate to Expert",
+      "3–5 h a day in the saddle"
+    ],
+    "pulsante": "Request more info",
+    "nome_modulo": "Doñana — 4 nights"
+  }
+}

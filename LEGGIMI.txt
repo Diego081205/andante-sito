@@ -1,0 +1,14 @@
+SITO ANDANTE — come è organizzato
+
+Pannello di controllo (per Zoe e Guia):
+  https://andantehorseriding.com/admin
+  Si entra con email e password (invito via email). Ogni "Pubblica" aggiorna il sito in circa un minuto.
+
+Cartelle:
+  content/     tutti i testi, le esperienze, le date, le recensioni e le FAQ (modificati dal pannello)
+  media/       foto e video (le foto caricate dal pannello vanno in media/uploads)
+  template/    la pagina del sito (struttura, grafica e funzioni)
+  admin/       il pannello di controllo (Decap CMS)
+  scripts/     build.mjs unisce template e contenuti e crea la cartella dist/ che Netlify pubblica
+
+Per provarlo sul computer:  node scripts/build.mjs   poi apri dist/index.html

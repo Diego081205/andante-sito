@@ -1,0 +1,102 @@
+{
+  "id": "tusc",
+  "ordine": 100,
+  "gruppo": "piu-giorni",
+  "visibile": true,
+  "presto": true,
+  "prezzo": "",
+  "luoghi": [
+    "it"
+  ],
+  "tipi": [
+    "multi"
+  ],
+  "durate": [
+    "4+"
+  ],
+  "livelli": [
+    "adv"
+  ],
+  "foto_copertina": "",
+  "posizione_copertina": "",
+  "galleria": [
+    {
+      "foto": "media/toscana-colline.jpg",
+      "didascalia_it": "Colline toscane al tramonto con una cappella e un casale tra i cipressi",
+      "didascalia_en": "Tuscan hills at sunset with a chapel and a farmhouse among the cypresses"
+    }
+  ],
+  "video": [],
+  "it": {
+    "titolo": "Toscana",
+    "sottotitolo": "Colline, boschi e la tradizione del Palio",
+    "luogo": "Toscana · Italia",
+    "intro": "Un viaggio di più giorni nella campagna toscana, profondamente legato alla tradizione equestre di Siena e al Palio.",
+    "paragrafi": [],
+    "dettagli": [
+      {
+        "voce": "Destinazione",
+        "valore": "Toscana · Italia"
+      },
+      {
+        "voce": "Durata",
+        "valore": "3 notti"
+      },
+      {
+        "voce": "Livello",
+        "valore": "Esperto"
+      },
+      {
+        "voce": "In sella",
+        "valore": "2–5 ore al giorno"
+      },
+      {
+        "voce": "Prezzo da",
+        "valore": "€2.500 a persona"
+      }
+    ],
+    "punti": [
+      "3 notti",
+      "Esperto",
+      "2–5 ore al giorno in sella"
+    ],
+    "pulsante": "Richiedi più informazioni",
+    "nome_modulo": "Toscana — 3 notti"
+  },
+  "en": {
+    "titolo": "Tuscany",
+    "sottotitolo": "Hills, Forests & the Palio Tradition",
+    "luogo": "Tuscany · Italy",
+    "intro": "A multi-day ride through the Tuscan countryside, deeply connected to the equestrian heritage of Siena and the Palio di Siena tradition.",
+    "paragrafi": [],
+    "dettagli": [
+      {
+        "voce": "Destination",
+        "valore": "Tuscany · Italy"
+      },
+      {
+        "voce": "Duration",
+        "valore": "3 nights"
+      },
+      {
+        "voce": "Riding level",
+        "valore": "Expert"
+      },
+      {
+        "voce": "Time in the saddle",
+        "valore": "2–5 hours per day"
+      },
+      {
+        "voce": "Price from",
+        "valore": "€2,500 per person"
+      }
+    ],
+    "punti": [
+      "3 nights",
+      "Expert",
+      "2–5 h a day in the saddle"
+    ],
+    "pulsante": "Request more info",
+    "nome_modulo": "Tuscany — 3 nights"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "voci": [
+    {
+      "id": "r0",
+      "it": "Dicono di noi",
+      "en": "What people say"
+    },
+    {
+      "id": "r1",
+      "it": "Le parole di chi ha già cavalcato con noi.",
+      "en": "In the words of those who have already ridden with us."
+    },
+    {
+      "id": "r2",
+      "it": "Leggi tutte le recensioni su Tripadvisor",
+      "en": "Read all our reviews on Tripadvisor"
+    },
+    {
+      "id": "pr0",
+      "it": "Parlano di noi",
+      "en": "In the press"
+    },
+    {
+      "id": "pr1",
+      "it": "Articoli e racconti dedicati ad Andante e ai luoghi in cui cavalchiamo.",
+      "en": "Articles and stories about Andante and the places where we ride."
+    },
+    {
+      "id": "prb",
+      "it": "Leggi l’articolo",
+      "en": "Read the article"
+    },
+    {
+      "id": "pr1d",
+      "it": "Aprile 2025",
+      "en": "April 2025"
+    },
+    {
+      "id": "pr1t",
+      "it": "Andante Horse Riding × Hypermaremma",
+      "en": "Andante Horse Riding × Hypermaremma"
+    },
+    {
+      "id": "pr1p",
+      "it": "Il 27 aprile 2025 più di venti cavalieri hanno attraversato a cavallo le terre di Hypermaremma con Andante, Terre di Sacra e i Parchi Archeologici della Maremma: dall’oasi WWF di Burano all’antica città di Cosa, fino alla spiaggia della Tagliata di Ansedonia, tra natura, storia e installazioni di arte contemporanea.",
+      "en": "On 27 April 2025, more than twenty riders crossed the lands of Hypermaremma on horseback with Andante, Terre di Sacra and the Archaeological Parks of Maremma: from the WWF Burano oasis to the ancient city of Cosa and down to the beach at Tagliata di Ansedonia, between nature, history and contemporary art installations."
+    },
+    {
+      "id": "pr2d",
+      "it": "Ottobre 2025",
+      "en": "October 2025 · in Italian"
+    },
+    {
+      "id": "pr2t",
+      "it": "Terre di Sacra, la campagna in riva al mare toscano",
+      "en": "Terre di Sacra, the countryside by the Tuscan sea"
+    },
+    {
+      "id": "pr2p",
+      "it": "Il ritratto di Terre di Sacra, la tenuta tra Capalbio e il Tirreno con cui Andante ha cavalcato per Hypermaremma: le vacche maremmane guidate a cavallo, l’arte contemporanea nel paesaggio e dodici chilometri di spiaggia selvaggia.",
+      "en": "A portrait of Terre di Sacra, the estate between Capalbio and the Tyrrhenian Sea where Andante rode for Hypermaremma: Maremmana cattle herded on horseback, contemporary art in the landscape and twelve kilometres of wild beach."
+    }
+  ]
+}

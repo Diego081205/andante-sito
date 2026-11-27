@@ -1,0 +1,137 @@
+{
+  "id": "dining",
+  "ordine": 50,
+  "gruppo": "giornate",
+  "visibile": true,
+  "presto": false,
+  "prezzo": "",
+  "luoghi": [
+    "it"
+  ],
+  "tipi": [
+    "oneday",
+    "dining"
+  ],
+  "durate": [
+    "1"
+  ],
+  "livelli": [
+    "beg"
+  ],
+  "foto_copertina": "media/pranzo/tavola-spiaggia-arrivo.jpg",
+  "posizione_copertina": "center 62%",
+  "galleria": [
+    {
+      "foto": "media/pranzo/tavola-pranzo-cavalli.jpg",
+      "didascalia_it": "La tavola apparecchiata all’aperto con due cavalli sellati",
+      "didascalia_en": "The table laid outdoors with two saddled horses",
+      "posizione": "center 60%"
+    },
+    {
+      "foto": "media/pranzo/tavola-spiaggia-arrivo.jpg",
+      "didascalia_it": "La lunga tavola sulla spiaggia mentre arrivano i cavalieri",
+      "didascalia_en": "The long table on the beach as the riders arrive"
+    },
+    {
+      "foto": "media/pranzo/buffet-sera-cavallo.jpg",
+      "didascalia_it": "Il buffet al crepuscolo con un cavallo sellato",
+      "didascalia_en": "The buffet at dusk with a saddled horse"
+    },
+    {
+      "foto": "media/mare/tre-cavalli-mare.jpg",
+      "didascalia_it": "Cavalli che camminano nell’acqua bassa in riva al mare",
+      "didascalia_en": "Horses walking in the shallow water by the shore"
+    },
+    {
+      "foto": "media/mare/bagno-cavalli.jpg",
+      "didascalia_it": "Il bagno con i cavalli",
+      "didascalia_en": "Swimming with the horses"
+    },
+    {
+      "foto": "media/mare/acqua-chiara.jpg",
+      "didascalia_it": "Cavalli nell’acqua trasparente",
+      "didascalia_en": "Horses in clear water"
+    }
+  ],
+  "video": [],
+  "it": {
+    "titolo": "Pranzo in Spiaggia e Prima Cavalcata",
+    "sottotitolo": "Per chi non è mai salito a cavallo",
+    "luogo": "Maremma · Italia",
+    "intro": "Non serve saper cavalcare: raggiungi il gruppo del Beach Ride all’ora di pranzo, ti siedi con noi a tavola sulla spiaggia e poi provi, per la prima volta o di nuovo, a salire a cavallo in riva al mare.",
+    "paragrafi": [
+      "Mentre il gruppo cavalca dal mattino lungo la costa, tu ci raggiungi direttamente in spiaggia per il pranzo, organizzato dal nostro staff (vi chiediamo di comunicarci in anticipo eventuali allergie o esigenze alimentari).",
+      "Dopo pranzo è il tuo momento: con calma e sempre accompagnato dalle nostre guide, sali a cavallo e fai i tuoi primi passi sulla sabbia, in riva al mare. Un modo semplice e senza pressioni per scoprire cosa vuol dire andare a cavallo.",
+      "Ideale per chi accompagna amici o familiari che fanno il Beach Ride, per i bambini e per chi vuole provare prima di lanciarsi in una giornata intera."
+    ],
+    "dettagli": [
+      {
+        "voce": "Ritrovo",
+        "valore": "In spiaggia all’ora di pranzo (il punto esatto viene comunicato alla conferma)"
+      },
+      {
+        "voce": "Zona",
+        "valore": "Da Punta Ala a Capalbio / Feniglia"
+      },
+      {
+        "voce": "Livello",
+        "valore": "Principianti, nessuna esperienza richiesta"
+      },
+      {
+        "voce": "Include",
+        "valore": "Pranzo in spiaggia e prima cavalcata guidata"
+      },
+      {
+        "voce": "Prezzo",
+        "valore": "€ — a persona"
+      }
+    ],
+    "punti": [
+      "Mezza giornata",
+      "Principianti",
+      "Pranzo in spiaggia"
+    ],
+    "pulsante": "Richiedi disponibilità",
+    "nome_modulo": ""
+  },
+  "en": {
+    "titolo": "Beach Lunch & First Ride",
+    "sottotitolo": "For those who have never ridden before",
+    "luogo": "Maremma · Italy",
+    "intro": "No riding experience needed: join the Beach Ride group at lunchtime, sit down with us at a table on the beach, then try getting on a horse by the sea, for the first time or once again.",
+    "paragrafi": [
+      "While the group rides along the coast from the morning, you meet us directly on the beach for lunch, organized by our staff (please inform us in advance of any allergies or dietary restrictions).",
+      "After lunch it’s your turn: calmly and always accompanied by our guides, you get in the saddle and take your first steps on the sand, by the water. A simple, pressure-free way to discover what riding feels like.",
+      "Ideal for anyone joining friends or family on the Beach Ride, for children, and for those who want to try before committing to a full day."
+    ],
+    "dettagli": [
+      {
+        "voce": "Meeting point",
+        "valore": "On the beach at lunchtime (exact meeting point shared upon confirmation)"
+      },
+      {
+        "voce": "Area",
+        "valore": "Between Punta Ala and Capalbio / Feniglia"
+      },
+      {
+        "voce": "Level",
+        "valore": "Beginners, no experience needed"
+      },
+      {
+        "voce": "Includes",
+        "valore": "Beach lunch and first guided ride"
+      },
+      {
+        "voce": "Price",
+        "valore": "€ — per person"
+      }
+    ],
+    "punti": [
+      "Half day",
+      "Beginners",
+      "Beach lunch"
+    ],
+    "pulsante": "Request availability",
+    "nome_modulo": ""
+  }
+}

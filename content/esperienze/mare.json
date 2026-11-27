@@ -1,0 +1,181 @@
+{
+  "id": "mare",
+  "ordine": 10,
+  "gruppo": "giornate",
+  "visibile": true,
+  "presto": false,
+  "prezzo": "€270",
+  "luoghi": [
+    "it"
+  ],
+  "tipi": [
+    "oneday"
+  ],
+  "durate": [
+    "1"
+  ],
+  "livelli": [
+    "beg",
+    "int",
+    "adv"
+  ],
+  "foto_copertina": "media/mare/cavalli-in-mare.jpg",
+  "posizione_copertina": "center 55%",
+  "galleria": [
+    {
+      "foto": "media/mare/galoppo-riva.jpg",
+      "didascalia_it": "Tre cavalli al galoppo sulla battigia, tra gli schizzi",
+      "didascalia_en": "Three horses galloping along the shoreline, splashing through the water"
+    },
+    {
+      "foto": "media/mare/cavalli-in-mare.jpg",
+      "didascalia_it": "Cavalli e cavalieri che entrano in mare",
+      "didascalia_en": "Horses and riders wading into the sea"
+    },
+    {
+      "foto": "media/mare/galoppo-spiaggia.jpg",
+      "didascalia_it": "Galoppo sulla spiaggia davanti alla pineta",
+      "didascalia_en": "Galloping on the beach in front of the pine forest"
+    },
+    {
+      "foto": "media/mare/tre-cavalli-mare.jpg",
+      "didascalia_it": "Tre cavalli nell’acqua bassa",
+      "didascalia_en": "Three horses in the shallow water"
+    },
+    {
+      "foto": "media/hypermaremma.jpg",
+      "didascalia_it": "Cavalieri sulla spiaggia visti dall’alto",
+      "didascalia_en": "Riders on the beach seen from above"
+    },
+    {
+      "foto": "media/mare/galoppo-due.jpg",
+      "didascalia_it": "Due amazzoni al galoppo in riva al mare",
+      "didascalia_en": "Two riders galloping by the sea"
+    },
+    {
+      "foto": "media/mare/bagno-cavalli.jpg",
+      "didascalia_it": "Il bagno con i cavalli",
+      "didascalia_en": "Swimming with the horses"
+    },
+    {
+      "foto": "media/mare/galoppo-tre.jpg",
+      "didascalia_it": "Tre cavalli al galoppo lungo la costa",
+      "didascalia_en": "Three horses galloping along the coast"
+    },
+    {
+      "foto": "media/mare/acqua-chiara.jpg",
+      "didascalia_it": "Cavalli che nuotano nell’acqua trasparente",
+      "didascalia_en": "Horses swimming in clear water"
+    }
+  ],
+  "video": [
+    {
+      "video": "media/mare/video-galoppo.mp4",
+      "anteprima": "media/mare/video-galoppo-poster.jpg",
+      "largo": true
+    },
+    {
+      "video": "media/mare/video-bagno.mp4",
+      "anteprima": "media/mare/video-bagno-poster.jpg",
+      "largo": true
+    }
+  ],
+  "it": {
+    "titolo": "Trekking al Mare",
+    "sottotitolo": "",
+    "luogo": "Maremma · Italia",
+    "intro": "Un’intera giornata a cavallo lungo la costa toscana, dove paesaggi selvaggi incontrano il mare.",
+    "paragrafi": [
+      "Attraversando sentieri costieri e spiagge incontaminate, condividendo un pranzo rilassato in riva al mare e rientrando al tramonto, questa esperienza celebra la libertà, la natura e un’eleganza autentica a contatto con l’aria aperta.",
+      "La giornata: 4–5 ore a cavallo tra sentieri costieri e spiagge della Maremma. Il pranzo in spiaggia è organizzato dal nostro staff (vi chiediamo di comunicarci in anticipo eventuali allergie o esigenze alimentari) e durante la pausa c’è la possibilità di fare il bagno con i cavalli. Si rientra a cavallo al tramonto, immersi nei colori del mare.",
+      "Il percorso: l’escursione si svolge nel tratto di costa tra Punta Ala e Capalbio / Feniglia. Il percorso esatto può variare in base alle condizioni meteorologiche e all’accessibilità dei sentieri. Gli orari possono variare leggermente in base alla stagione e alle ore di luce.",
+      "Prenotazione: acconto di €120 a persona, saldo il giorno dell’esperienza."
+    ],
+    "dettagli": [
+      {
+        "voce": "Ritrovo",
+        "valore": "Porto di Scarlino o Ansedonia"
+      },
+      {
+        "voce": "Orario",
+        "valore": "Ritrovo alle 10:00 – rientro al tramonto"
+      },
+      {
+        "voce": "In sella",
+        "valore": "4–5 ore"
+      },
+      {
+        "voce": "Zona",
+        "valore": "Da Punta Ala a Capalbio / Feniglia"
+      },
+      {
+        "voce": "Include",
+        "valore": "Escursione guidata e pranzo in spiaggia"
+      },
+      {
+        "voce": "Prezzo",
+        "valore": "€270 a persona"
+      },
+      {
+        "voce": "Acconto",
+        "valore": "€120 a persona"
+      }
+    ],
+    "punti": [
+      "1 giorno",
+      "Tutti i livelli",
+      "4–5 ore in sella"
+    ],
+    "pulsante": "Richiedi disponibilità",
+    "nome_modulo": ""
+  },
+  "en": {
+    "titolo": "Beach Ride",
+    "sottotitolo": "",
+    "luogo": "Maremma · Italy",
+    "intro": "A full-day horseback ride along the Tuscan coast, where wild landscapes meet the sea.",
+    "paragrafi": [
+      "Riding through coastal trails and open beaches, sharing a relaxed lunch by the water and returning at sunset, this experience celebrates freedom, nature and understated outdoor elegance.",
+      "The ride: 4–5 hours on horseback through coastal trails and beaches of the Maremma. Beach lunch organized by our staff (please inform us in advance of any allergies or dietary restrictions), with the opportunity to swim with the horses during the lunch break. Sunset ride back, immersed in the colors of the sea.",
+      "Please note: the ride takes place in the area between Punta Ala and Capalbio / Feniglia. The exact route may vary depending on weather conditions and trail accessibility. Times may vary slightly depending on the season and daylight hours.",
+      "Booking: €120 deposit per person, balance to be paid on the day of the experience."
+    ],
+    "dettagli": [
+      {
+        "voce": "Meeting point",
+        "valore": "Port of Scarlino or Ansedonia"
+      },
+      {
+        "voce": "Schedule",
+        "valore": "Meeting at 10:00 AM – return at sunset"
+      },
+      {
+        "voce": "On horseback",
+        "valore": "4–5 hours"
+      },
+      {
+        "voce": "Area",
+        "valore": "Between Punta Ala and Capalbio / Feniglia"
+      },
+      {
+        "voce": "Includes",
+        "valore": "Guided ride and beach lunch"
+      },
+      {
+        "voce": "Price",
+        "valore": "€270 per person"
+      },
+      {
+        "voce": "Deposit",
+        "valore": "€120 per person"
+      }
+    ],
+    "punti": [
+      "1 day",
+      "All levels",
+      "4–5 h in the saddle"
+    ],
+    "pulsante": "Request availability",
+    "nome_modulo": ""
+  }
+}

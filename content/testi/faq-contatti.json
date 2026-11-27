@@ -1,0 +1,44 @@
+{
+  "voci": [
+    {
+      "id": "ff0",
+      "it": "Domande Frequenti",
+      "en": "Frequently Asked Questions"
+    },
+    {
+      "id": "ff1",
+      "it": "Le cose che ci chiedono più spesso.",
+      "en": "The things people ask us most."
+    },
+    {
+      "id": "fb0",
+      "it": "Compila il modulo",
+      "en": "Fill in the form"
+    },
+    {
+      "id": "c0",
+      "it": "Contatti",
+      "en": "Contact"
+    },
+    {
+      "id": "c1",
+      "it": "Scrivici per disponibilità, prezzi e richieste speciali.",
+      "en": "Write us for availability, prices and special requests."
+    },
+    {
+      "id": "c2",
+      "it": "Oppure scrivici",
+      "en": "Or write to us"
+    },
+    {
+      "id": "ct1",
+      "it": "WhatsApp · Telefono",
+      "en": "WhatsApp · Phone"
+    },
+    {
+      "id": "cwa",
+      "it": "Entra nella community",
+      "en": "Join the community"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "movi",
+  "ordine": 80,
+  "gruppo": "piu-giorni",
+  "visibile": true,
+  "presto": true,
+  "prezzo": "",
+  "luoghi": [
+    "it"
+  ],
+  "tipi": [
+    "multi"
+  ],
+  "durate": [
+    "2-3"
+  ],
+  "livelli": [
+    "adv"
+  ],
+  "foto_copertina": "",
+  "posizione_copertina": "",
+  "galleria": [
+    {
+      "foto": "media/cavallo-moto/mandria-puledri.jpg",
+      "didascalia_it": "Fattrici e puledri sui pascoli d’altura",
+      "didascalia_en": "Mares and foals on the high pastures"
+    }
+  ],
+  "video": [],
+  "it": {
+    "titolo": "Ovindoli",
+    "sottotitolo": "Praterie d’alta quota e lavoro con i mandriani",
+    "luogo": "Ovindoli · Italia",
+    "intro": "Una cavalcata autentica e senza filtri tra le vaste praterie d’alta quota dell’Appennino, al fianco dei mandriani locali per radunare cavalli e bovini nelle pianure aperte.",
+    "paragrafi": [],
+    "dettagli": [
+      {
+        "voce": "Destinazione",
+        "valore": "Ovindoli · Italia"
+      },
+      {
+        "voce": "Durata",
+        "valore": "3 giorni / 2 notti"
+      },
+      {
+        "voce": "Livello",
+        "valore": "Esperto"
+      },
+      {
+        "voce": "In sella",
+        "valore": "5–6 ore al giorno"
+      },
+      {
+        "voce": "Prezzo da",
+        "valore": "€850 a persona"
+      }
+    ],
+    "punti": [
+      "3 giorni / 2 notti",
+      "Esperto",
+      "5–6 ore al giorno in sella"
+    ],
+    "pulsante": "Richiedi più informazioni",
+    "nome_modulo": "Ovindoli — 3 giorni / 2 notti"
+  },
+  "en": {
+    "titolo": "Ovindoli",
+    "sottotitolo": "High-Altitude Prairies & Working with the Mandriani",
+    "luogo": "Ovindoli · Italy",
+    "intro": "A raw and authentic ride across the vast high-altitude prairies of the Apennines, riding alongside local mandriani to recover horses and cattle across open plains.",
+    "paragrafi": [],
+    "dettagli": [
+      {
+        "voce": "Destination",
+        "valore": "Ovindoli · Italy"
+      },
+      {
+        "voce": "Duration",
+        "valore": "3 days / 2 nights"
+      },
+      {
+        "voce": "Riding level",
+        "valore": "Expert"
+      },
+      {
+        "voce": "Time in the saddle",
+        "valore": "5–6 hours per day"
+      },
+      {
+        "voce": "Price from",
+        "valore": "€850 per person"
+      }
+    ],
+    "punti": [
+      "3 days / 2 nights",
+      "Expert",
+      "5–6 h a day in the saddle"
+    ],
+    "pulsante": "Request more info",
+    "nome_modulo": "Ovindoli — 3 days / 2 nights"
+  }
+}

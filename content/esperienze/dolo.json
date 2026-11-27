@@ -1,0 +1,107 @@
+{
+  "id": "dolo",
+  "ordine": 110,
+  "gruppo": "piu-giorni",
+  "visibile": true,
+  "presto": true,
+  "prezzo": "",
+  "luoghi": [
+    "it"
+  ],
+  "tipi": [
+    "multi"
+  ],
+  "durate": [
+    "4+"
+  ],
+  "livelli": [
+    "int",
+    "adv"
+  ],
+  "foto_copertina": "",
+  "posizione_copertina": "",
+  "galleria": [
+    {
+      "foto": "media/dolomiti.jpg",
+      "didascalia_it": "Le vette delle Dolomiti al tramonto sopra i pascoli verdi",
+      "didascalia_en": "Dolomite peaks at sunset above green pastures"
+    }
+  ],
+  "video": [],
+  "it": {
+    "titolo": "Dolomiti",
+    "sottotitolo": "Vette, sentieri alpini e paesaggi spettacolari",
+    "luogo": "Dolomiti · Italia",
+    "intro": "Sette giorni a cavallo tra gli scenari spettacolari delle Dolomiti.",
+    "paragrafi": [
+      "Si cavalca su sentieri d’alta quota ai piedi di vette imponenti: un’esperienza che unisce resistenza, bellezza e un legame profondo con i paesaggi di montagna."
+    ],
+    "dettagli": [
+      {
+        "voce": "Destinazione",
+        "valore": "Dolomiti · Italia"
+      },
+      {
+        "voce": "Durata",
+        "valore": "7 giorni"
+      },
+      {
+        "voce": "Livello",
+        "valore": "Da intermedio a esperto"
+      },
+      {
+        "voce": "In sella",
+        "valore": "4–6 ore al giorno"
+      },
+      {
+        "voce": "Prezzo da",
+        "valore": "€3.200 a persona"
+      }
+    ],
+    "punti": [
+      "7 giorni",
+      "Da intermedio a esperto",
+      "4–6 ore al giorno in sella"
+    ],
+    "pulsante": "Richiedi più informazioni",
+    "nome_modulo": "Dolomiti — 7 giorni"
+  },
+  "en": {
+    "titolo": "Dolomites",
+    "sottotitolo": "High Peaks, Alpine Trails & Dramatic Landscapes",
+    "luogo": "Dolomites · Italy",
+    "intro": "A seven-day horseback journey through the dramatic alpine scenery of the Dolomites.",
+    "paragrafi": [
+      "Riding along high-altitude trails beneath towering peaks, this experience offers a powerful combination of endurance, beauty and deep connection to mountain landscapes."
+    ],
+    "dettagli": [
+      {
+        "voce": "Destination",
+        "valore": "Dolomites · Italy"
+      },
+      {
+        "voce": "Duration",
+        "valore": "7 days"
+      },
+      {
+        "voce": "Riding level",
+        "valore": "Intermediate to Expert"
+      },
+      {
+        "voce": "Time in the saddle",
+        "valore": "4–6 hours per day"
+      },
+      {
+        "voce": "Price from",
+        "valore": "€3,200 per person"
+      }
+    ],
+    "punti": [
+      "7 days",
+      "Intermediate to Expert",
+      "4–6 h a day in the saddle"
+    ],
+    "pulsante": "Request more info",
+    "nome_modulo": "Dolomites — 7 days"
+  }
+}

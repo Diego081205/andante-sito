@@ -1,0 +1,94 @@
+{
+  "id": "wild",
+  "ordine": 70,
+  "gruppo": "piu-giorni",
+  "visibile": true,
+  "presto": true,
+  "prezzo": "",
+  "luoghi": [
+    "it"
+  ],
+  "tipi": [
+    "multi"
+  ],
+  "durate": [
+    "2-3"
+  ],
+  "livelli": [
+    "beg",
+    "int",
+    "adv"
+  ],
+  "foto_copertina": "",
+  "posizione_copertina": "",
+  "galleria": [
+    {
+      "foto": "media/mare/galoppo-due.jpg",
+      "didascalia_it": "Due amazzoni al galoppo in riva al mare",
+      "didascalia_en": "Two riders galloping by the sea"
+    }
+  ],
+  "video": [],
+  "it": {
+    "titolo": "Costa Selvaggia",
+    "sottotitolo": "Beach Ride in Toscana",
+    "luogo": "Toscana · Italia",
+    "intro": "Due giorni a cavallo tra paesaggi mediterranei, spiagge selvagge ed esperienze gastronomiche curate.",
+    "paragrafi": [],
+    "dettagli": [
+      {
+        "voce": "Destinazione",
+        "valore": "Toscana · Italia"
+      },
+      {
+        "voce": "Durata",
+        "valore": "2 giorni"
+      },
+      {
+        "voce": "Livello",
+        "valore": "Tutti i livelli"
+      },
+      {
+        "voce": "Prezzo da",
+        "valore": "€820 a persona"
+      }
+    ],
+    "punti": [
+      "2 giorni",
+      "Tutti i livelli"
+    ],
+    "pulsante": "Richiedi più informazioni",
+    "nome_modulo": "Costa Selvaggia — 2 giorni"
+  },
+  "en": {
+    "titolo": "The Wild Coast Experience",
+    "sottotitolo": "Beach Ride Tuscany",
+    "luogo": "Tuscany · Italy",
+    "intro": "A two-day horseback journey between Mediterranean landscapes, wild beaches and curated dining experiences.",
+    "paragrafi": [],
+    "dettagli": [
+      {
+        "voce": "Destination",
+        "valore": "Tuscany · Italy"
+      },
+      {
+        "voce": "Duration",
+        "valore": "2 days"
+      },
+      {
+        "voce": "Riding level",
+        "valore": "All levels"
+      },
+      {
+        "voce": "Price from",
+        "valore": "€820 per person"
+      }
+    ],
+    "punti": [
+      "2 days",
+      "All levels"
+    ],
+    "pulsante": "Request more info",
+    "nome_modulo": "The Wild Coast Experience — 2 days"
+  }
+}

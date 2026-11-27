@@ -1,0 +1,131 @@
+{
+  "id": "ovin",
+  "ordine": 30,
+  "gruppo": "giornate",
+  "visibile": true,
+  "presto": false,
+  "prezzo": "€270",
+  "luoghi": [
+    "it"
+  ],
+  "tipi": [
+    "oneday"
+  ],
+  "durate": [
+    "1"
+  ],
+  "livelli": [
+    "beg",
+    "int",
+    "adv"
+  ],
+  "foto_copertina": "media/ovindoli-giornata.jpg",
+  "posizione_copertina": "center 58%",
+  "galleria": [
+    {
+      "foto": "media/ovindoli-giornata.jpg",
+      "didascalia_it": "Una fila di cavalieri nei prati di Ovindoli, vista dalla sella",
+      "didascalia_en": "A line of riders across the meadows of Ovindoli, seen from the saddle",
+      "posizione": "center 60%"
+    }
+  ],
+  "video": [],
+  "it": {
+    "titolo": "Giornata a Ovindoli",
+    "sottotitolo": "",
+    "luogo": "Ovindoli · Italia",
+    "intro": "Un’intera giornata a cavallo tra le praterie d’alta quota di Ovindoli, dove spazi aperti, mandrie al pascolo e orizzonti senza fine disegnano il paesaggio.",
+    "paragrafi": [
+      "Cavalcando tra cavalli e bovini allo stato brado, questa esperienza racconta la bellezza selvaggia e la forza silenziosa dell’Appennino, regalando un senso profondo di libertà e di contatto con la natura.",
+      "La giornata: 4–5 ore a cavallo tra praterie aperte e sentieri di montagna, accanto alle mandrie di cavalli e bovini al pascolo. Pausa pranzo nella natura, organizzata dal nostro staff (vi chiediamo di comunicarci in anticipo eventuali allergie o esigenze alimentari), con il tempo per riposare, osservare il paesaggio e vivere il silenzio della montagna. Si rientra a cavallo tra ampi panorami e luci che cambiano.",
+      "Da sapere: il percorso può variare in base alle condizioni meteorologiche e all’accessibilità dei sentieri, sempre dando priorità alla sicurezza e alla qualità dell’esperienza. Gli orari possono variare in base alla stagione e alle ore di luce.",
+      "Prenotazione: acconto di €120 a persona, saldo il giorno dell’esperienza."
+    ],
+    "dettagli": [
+      {
+        "voce": "Ritrovo",
+        "valore": "Ovindoli (il punto esatto viene comunicato alla conferma)"
+      },
+      {
+        "voce": "Orario",
+        "valore": "Ritrovo alle 10:00 – rientro nel tardo pomeriggio"
+      },
+      {
+        "voce": "In sella",
+        "valore": "4–5 ore"
+      },
+      {
+        "voce": "Zona",
+        "valore": "Praterie d’alta quota di Ovindoli, Appennino abruzzese"
+      },
+      {
+        "voce": "Include",
+        "valore": "Escursione guidata e pranzo all’aperto"
+      },
+      {
+        "voce": "Prezzo",
+        "valore": "€270 a persona"
+      },
+      {
+        "voce": "Acconto",
+        "valore": "€120 a persona"
+      }
+    ],
+    "punti": [
+      "1 giorno",
+      "Tutti i livelli",
+      "4–5 ore in sella"
+    ],
+    "pulsante": "Richiedi disponibilità",
+    "nome_modulo": ""
+  },
+  "en": {
+    "titolo": "Day Ride Ovindoli",
+    "sottotitolo": "",
+    "luogo": "Ovindoli · Italy",
+    "intro": "A full-day horseback ride through the high-altitude prairies of Ovindoli, where wide open spaces, grazing herds and endless horizons define the landscape.",
+    "paragrafi": [
+      "Riding among free-roaming horses and cattle, this experience captures the raw beauty and quiet power of the Apennines, offering a deep sense of freedom and connection to nature.",
+      "The ride: 4–5 hours on horseback across open prairies and mountain trails, riding alongside grazing herds of horses and cattle. Lunch break in nature, organized by our staff (please inform us in advance of any allergies or dietary restrictions), with time to rest, observe the landscape and experience the stillness of high-altitude riding. Return ride through wide panoramic views and changing light.",
+      "Please note: the route may vary depending on weather conditions and trail accessibility, always prioritizing safety and the quality of the experience. Times may vary depending on the season and daylight hours.",
+      "Booking: €120 deposit per person, balance to be paid on the day of the experience."
+    ],
+    "dettagli": [
+      {
+        "voce": "Meeting point",
+        "valore": "Ovindoli (exact meeting point shared upon confirmation)"
+      },
+      {
+        "voce": "Schedule",
+        "valore": "Meeting at 10:00 AM – return in the late afternoon"
+      },
+      {
+        "voce": "On horseback",
+        "valore": "4–5 hours"
+      },
+      {
+        "voce": "Area",
+        "valore": "High-altitude prairies of Ovindoli, Abruzzo Apennines"
+      },
+      {
+        "voce": "Includes",
+        "valore": "Guided ride and outdoor lunch"
+      },
+      {
+        "voce": "Price",
+        "valore": "€270 per person"
+      },
+      {
+        "voce": "Deposit",
+        "valore": "€120 per person"
+      }
+    ],
+    "punti": [
+      "1 day",
+      "All levels",
+      "4–5 h in the saddle"
+    ],
+    "pulsante": "Request availability",
+    "nome_modulo": ""
+  }
+}
